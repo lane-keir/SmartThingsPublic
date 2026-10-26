@@ -1,0 +1,13 @@
+DeviationID,EquipmentID,StartDateTime,Area,Parameter,Setpoint,Actual,DurationMins
+TD-1,OVEN-03,2026-08-27 19:28,Heat Treat,Soak temperature,420,433.3,11
+TD-2,FURN-01,2026-08-31 09:54,Heat Treat,Ramp rate,860,924.5,2
+TD-3,FURN-02,2026-09-07 21:39,Heat Treat,Quench delay,420,438.2,10
+TD-4,FURN-02,2026-09-07 13:49,Heat Treat,Ramp rate,860,892.6,4
+TD-5,FURN-01,2026-09-12 09:24,Heat Treat,Quench delay,420,449.0,20
+TD-6,OVEN-03,2026-09-14 20:29,Heat Treat,Soak temperature,420,439.2,19
+TD-7,OVEN-03,2026-09-22 10:44,Heat Treat,Quench delay,420,451.0,20
+TD-8,OVEN-03,2026-09-22 19:28,Heat Treat,Ramp rate,860,917.5,4
+TD-9,OVEN-03,2026-10-02 12:31,Heat Treat,Ramp rate,420,439.9,22
+TD-10,FURN-02,2026-10-08 05:58,Heat Treat,Soak temperature,860,925.7,16
+TD-11,FURN-02,2026-10-13 17:17,Heat Treat,Quench delay,420,433.1,4
+TD-12,OVEN-03,2026-10-13 15:14,Heat Treat,Ramp rate,860,881.9,24

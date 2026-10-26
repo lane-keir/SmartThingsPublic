@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "1b7aa473-4101-4ff7-8e9a-21a4a5d527b6",
+  "developer": {
+    "name": "{{COMPANY_NAME}} Operations Excellence",
+    "websiteUrl": "https://app.powerbi.com",
+    "privacyUrl": "https://app.powerbi.com",
+    "termsOfUseUrl": "https://app.powerbi.com"
+  },
+  "name": {
+    "short": "SQDCP Start of Shift",
+    "full": "SQDCP Start of Shift Dashboard"
+  },
+  "description": {
+    "short": "Safety, Quality, Delivery, Cost and People for the morning start-of-shift meeting.",
+    "full": "Tier 1 start-of-shift board: yesterday's SQDCP performance against target, month-to-date letter calendars, trends, drill-through to the originating EHS, QMS, MES, andon and ERP records, and the open action log. Data is refreshed from the source systems by Power BI before each shift."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#263238",
+  "staticTabs": [
+    {
+      "entityId": "sqdcpBoard",
+      "name": "Start of Shift",
+      "contentUrl": "https://app.powerbi.com/reportEmbed?reportId={{REPORT_ID}}&autoAuth=true&ctid={{TENANT_ID}}&pageName={{PAGE_NAME}}&navContentPaneEnabled=true&filterPaneEnabled=false",
+      "websiteUrl": "https://app.powerbi.com/groups/{{WORKSPACE_ID}}/reports/{{REPORT_ID}}",
+      "scopes": ["personal"]
+    },
+    {
+      "entityId": "about",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": ["app.powerbi.com", "*.powerbi.com"]
+}

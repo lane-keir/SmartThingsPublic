@@ -1,0 +1,17 @@
+KPI_Code,KPI_Name,Pillar,PillarOrder,KPIOrder,Unit,Aggregation,Polarity,DailyTarget,AmberTolerance,SourceSystem,Owner,Definition
+S01,Accidents,Safety,1,1,Count,Sum,LowerIsBetter,0,0,EHS System,EHS Manager,Injury requiring treatment beyond first aid or resulting in lost time
+S02,Incidents,Safety,1,2,Count,Sum,LowerIsBetter,0,0,EHS System,EHS Manager,First-aid injury or property/environmental incident with no lost time
+S03,Near Misses,Safety,1,3,Count,Sum,Info,,,EHS System,EHS Manager,Event that could have caused harm but did not (leading indicator - reporting is encouraged)
+S04,Hazards Contained,Safety,1,4,Count,Sum,Info,,,EHS System,EHS Manager,Hazards identified AND contained/made safe within the shift (leading indicator)
+Q01,Product Safety Reports,Quality,2,1,Count,Sum,LowerIsBetter,0,0,QMS,Quality Manager,Reports raised for a potential product safety / regulatory-critical characteristic
+Q02,Escapes,Quality,2,2,Count,Sum,LowerIsBetter,0,0,QMS,Quality Manager,Defect found beyond the point of manufacture (next process / customer)
+Q03,Concessions,Quality,2,3,Count,Sum,LowerIsBetter,0,1,QMS,Quality Manager,Approved deviation to accept product outside specification
+Q04,NCRs,Quality,2,4,Count,Sum,LowerIsBetter,1,1,QMS,Quality Manager,Non-conformance reports raised
+D01,RFT Final,Delivery,3,1,%,Ratio,HigherIsBetter,0.95,0.03,MES / Test,Production Manager,Units passing Final inspection first time / units presented to Final
+D02,RFT Verify,Delivery,3,2,%,Ratio,HigherIsBetter,0.95,0.03,MES / Test,Production Manager,Units passing Verify first time / units presented to Verify
+D03,RFT System,Delivery,3,3,%,Ratio,HigherIsBetter,0.95,0.03,MES / Test,Production Manager,Units passing System test first time / units presented to System test
+D04,Thermal Deviations,Delivery,3,4,Count,Sum,LowerIsBetter,0,1,Thermal Logger,Process Engineer,Furnace/oven/cure excursions outside the validated thermal profile
+D05,Stop Call Waits,Delivery,3,5,Minutes,Sum,LowerIsBetter,30,15,Andon,Production Manager,Total minutes operators waited for a response to a stop call
+C01,Scrap,Cost,4,1,GBP,Sum,LowerIsBetter,500,250,ERP,Finance / Ops,Value of material scrapped
+C02,Rework,Cost,4,2,Hours,Sum,LowerIsBetter,8,4,ERP,Finance / Ops,Labour hours booked to rework
+P01,Customer Visits,People,5,1,Count,Sum,Info,,,Visits Register,Site Lead,Customer / auditor visits planned on site (prepare the area)

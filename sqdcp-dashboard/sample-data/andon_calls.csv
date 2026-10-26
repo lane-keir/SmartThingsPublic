@@ -1,0 +1,401 @@
+CallID,CallDateTime,Area,Station,Reason,ResponseDateTime
+AND-1,2026-08-27 13:49,Machining,ST-09,Machine fault,2026-08-27 13:50
+AND-2,2026-08-27 17:10,Machining,ST-01,Machine fault,2026-08-27 17:13
+AND-3,2026-08-27 10:18,Machining,ST-10,Quality query,2026-08-27 10:19
+AND-4,2026-08-27 13:25,Machining,ST-01,Engineering support,2026-08-27 13:27
+AND-5,2026-08-27 12:15,Machining,ST-11,Tooling,2026-08-27 12:16
+AND-6,2026-08-28 05:40,Heat Treat,ST-05,Material shortage,2026-08-28 05:45
+AND-7,2026-08-27 13:03,Assembly,ST-08,Quality query,2026-08-27 13:04
+AND-8,2026-08-27 21:50,Assembly,ST-06,Machine fault,2026-08-27 21:54
+AND-9,2026-08-27 06:45,Assembly,ST-11,Engineering support,2026-08-27 06:48
+AND-10,2026-08-27 08:14,Test,ST-04,Material shortage,2026-08-27 08:21
+AND-11,2026-08-28 22:37,Machining,ST-09,Machine fault,2026-08-28 22:42
+AND-12,2026-08-28 12:42,Assembly,ST-09,Material shortage,2026-08-28 12:44
+AND-13,2026-08-28 10:54,Assembly,ST-01,Engineering support,2026-08-28 10:56
+AND-14,2026-08-28 09:57,Assembly,ST-02,Material shortage,2026-08-28 10:10
+AND-15,2026-08-28 06:41,Test,ST-01,Machine fault,2026-08-28 06:49
+AND-16,2026-08-28 12:58,Test,ST-08,Material shortage,2026-08-28 13:09
+AND-17,2026-08-31 06:22,Machining,ST-02,Tooling,2026-08-31 06:23
+AND-18,2026-08-31 19:48,Machining,ST-08,Machine fault,2026-08-31 19:49
+AND-19,2026-09-01 05:04,Machining,ST-02,Engineering support,2026-09-01 05:57
+AND-20,2026-08-31 16:39,Machining,ST-06,Machine fault,2026-08-31 16:43
+AND-21,2026-08-31 15:12,Heat Treat,ST-09,Tooling,2026-08-31 15:21
+AND-22,2026-08-31 18:53,Assembly,ST-07,Machine fault,2026-08-31 18:54
+AND-23,2026-08-31 08:11,Assembly,ST-08,Material shortage,2026-08-31 08:12
+AND-24,2026-08-31 12:15,Assembly,ST-10,Engineering support,2026-08-31 12:16
+AND-25,2026-08-31 23:43,Test,ST-09,Material shortage,2026-09-01 00:02
+AND-26,2026-09-02 04:11,Machining,ST-01,Machine fault,2026-09-02 04:28
+AND-27,2026-09-01 09:00,Heat Treat,ST-11,Engineering support,2026-09-01 09:08
+AND-28,2026-09-01 11:50,Heat Treat,ST-08,Machine fault,2026-09-01 11:51
+AND-29,2026-09-02 04:41,Assembly,ST-06,Tooling,2026-09-02 04:59
+AND-30,2026-09-01 21:31,Test,ST-06,Quality query,2026-09-01 21:41
+AND-31,2026-09-01 06:30,Test,ST-05,Engineering support,2026-09-01 06:33
+AND-32,2026-09-02 09:39,Machining,ST-10,Engineering support,2026-09-02 09:42
+AND-33,2026-09-02 12:07,Machining,ST-05,Engineering support,2026-09-02 12:40
+AND-34,2026-09-02 18:40,Machining,ST-03,Machine fault,2026-09-02 18:42
+AND-35,2026-09-02 12:48,Heat Treat,ST-05,Tooling,2026-09-02 13:02
+AND-36,2026-09-02 16:49,Assembly,ST-08,Tooling,2026-09-02 16:51
+AND-37,2026-09-02 17:21,Test,ST-10,Machine fault,2026-09-02 17:23
+AND-38,2026-09-02 09:06,Test,ST-03,Quality query,2026-09-02 09:25
+AND-39,2026-09-03 13:02,Machining,ST-01,Engineering support,2026-09-03 13:03
+AND-40,2026-09-04 05:41,Machining,ST-02,Material shortage,2026-09-04 05:58
+AND-41,2026-09-03 19:58,Machining,ST-01,Engineering support,2026-09-03 20:00
+AND-42,2026-09-03 07:59,Machining,ST-02,Material shortage,2026-09-03 08:00
+AND-43,2026-09-03 17:18,Heat Treat,ST-11,Material shortage,2026-09-03 17:19
+AND-44,2026-09-03 12:52,Heat Treat,ST-08,Tooling,2026-09-03 12:54
+AND-45,2026-09-03 11:59,Heat Treat,ST-11,Material shortage,2026-09-03 12:00
+AND-46,2026-09-03 17:09,Assembly,ST-06,Machine fault,2026-09-03 17:24
+AND-47,2026-09-03 14:42,Assembly,ST-01,Material shortage,2026-09-03 14:48
+AND-48,2026-09-03 15:33,Assembly,ST-06,Engineering support,2026-09-03 15:36
+AND-49,2026-09-03 22:30,Test,ST-07,Material shortage,2026-09-03 22:31
+AND-50,2026-09-03 06:56,Test,ST-12,Quality query,2026-09-03 06:58
+AND-51,2026-09-05 03:35,Machining,ST-10,Machine fault,2026-09-05 03:48
+AND-52,2026-09-04 13:35,Machining,ST-01,Tooling,2026-09-04 13:40
+AND-53,2026-09-04 13:07,Heat Treat,ST-08,Quality query,2026-09-04 13:11
+AND-54,2026-09-05 01:57,Heat Treat,ST-01,Machine fault,2026-09-05 02:07
+AND-55,2026-09-04 19:45,Assembly,ST-01,Quality query,2026-09-04 19:47
+AND-56,2026-09-04 21:04,Assembly,ST-01,Tooling,2026-09-04 21:05
+AND-57,2026-09-04 11:46,Assembly,ST-05,Material shortage,2026-09-04 11:51
+AND-58,2026-09-04 13:39,Assembly,ST-01,Machine fault,2026-09-04 13:44
+AND-59,2026-09-04 06:16,Assembly,ST-07,Material shortage,2026-09-04 06:28
+AND-60,2026-09-04 20:29,Test,ST-02,Engineering support,2026-09-04 20:31
+AND-61,2026-09-04 11:14,Test,ST-04,Machine fault,2026-09-04 11:28
+AND-62,2026-09-05 03:15,Test,ST-09,Machine fault,2026-09-05 03:41
+AND-63,2026-09-04 12:24,Test,ST-06,Engineering support,2026-09-04 12:25
+AND-64,2026-09-07 09:05,Machining,ST-01,Material shortage,2026-09-07 09:07
+AND-65,2026-09-07 10:09,Machining,ST-10,Material shortage,2026-09-07 10:14
+AND-66,2026-09-07 10:52,Heat Treat,ST-09,Material shortage,2026-09-07 10:55
+AND-67,2026-09-07 09:18,Heat Treat,ST-08,Machine fault,2026-09-07 09:25
+AND-68,2026-09-07 11:56,Heat Treat,ST-08,Engineering support,2026-09-07 12:09
+AND-69,2026-09-07 11:48,Heat Treat,ST-04,Quality query,2026-09-07 11:49
+AND-70,2026-09-07 16:27,Heat Treat,ST-12,Machine fault,2026-09-07 16:29
+AND-71,2026-09-07 09:21,Assembly,ST-07,Quality query,2026-09-07 09:25
+AND-72,2026-09-07 07:51,Test,ST-06,Material shortage,2026-09-07 07:52
+AND-73,2026-09-07 07:48,Test,ST-06,Machine fault,2026-09-07 08:13
+AND-74,2026-09-08 23:34,Machining,ST-08,Engineering support,2026-09-08 23:38
+AND-75,2026-09-08 06:31,Heat Treat,ST-11,Engineering support,2026-09-08 06:36
+AND-76,2026-09-08 15:16,Heat Treat,ST-04,Machine fault,2026-09-08 15:17
+AND-77,2026-09-08 22:35,Assembly,ST-01,Engineering support,2026-09-08 22:36
+AND-78,2026-09-08 13:38,Assembly,ST-11,Material shortage,2026-09-08 13:51
+AND-79,2026-09-08 11:26,Test,ST-09,Engineering support,2026-09-08 11:34
+AND-80,2026-09-09 02:21,Test,ST-01,Quality query,2026-09-09 02:24
+AND-81,2026-09-09 07:52,Assembly,ST-10,Material shortage,2026-09-09 08:01
+AND-82,2026-09-09 11:47,Assembly,ST-08,Machine fault,2026-09-09 11:49
+AND-83,2026-09-09 18:48,Assembly,ST-09,Tooling,2026-09-09 18:52
+AND-84,2026-09-10 05:20,Test,ST-03,Engineering support,2026-09-10 05:22
+AND-85,2026-09-09 20:34,Test,ST-03,Tooling,2026-09-09 20:37
+AND-86,2026-09-11 00:03,Heat Treat,ST-03,Material shortage,2026-09-11 00:09
+AND-87,2026-09-10 09:09,Assembly,ST-03,Material shortage,2026-09-10 09:11
+AND-88,2026-09-10 09:57,Assembly,ST-12,Engineering support,2026-09-10 10:10
+AND-89,2026-09-10 13:44,Assembly,ST-02,Machine fault,2026-09-10 13:47
+AND-90,2026-09-10 23:55,Assembly,ST-09,Material shortage,2026-09-11 00:10
+AND-91,2026-09-10 09:40,Assembly,ST-03,Material shortage,2026-09-10 09:47
+AND-92,2026-09-10 20:11,Test,ST-02,Machine fault,2026-09-10 20:17
+AND-93,2026-09-11 02:28,Test,ST-09,Engineering support,2026-09-11 02:46
+AND-94,2026-09-11 04:10,Test,ST-06,Engineering support,2026-09-11 04:11
+AND-95,2026-09-10 06:54,Test,ST-09,Tooling,2026-09-10 07:02
+AND-96,2026-09-10 09:10,Test,ST-09,Material shortage,2026-09-10 09:12
+AND-97,2026-09-11 16:40,Machining,ST-08,Tooling,2026-09-11 16:45
+AND-98,2026-09-11 11:53,Machining,ST-09,Engineering support,2026-09-11 11:54
+AND-99,2026-09-11 06:25,Machining,ST-06,Quality query,2026-09-11 06:33
+AND-100,2026-09-11 20:31,Machining,ST-10,Quality query,2026-09-11 20:40
+AND-101,2026-09-11 09:12,Machining,ST-03,Engineering support,2026-09-11 09:17
+AND-102,2026-09-11 15:28,Heat Treat,ST-05,Machine fault,2026-09-11 15:37
+AND-103,2026-09-12 00:39,Heat Treat,ST-11,Material shortage,2026-09-12 01:03
+AND-104,2026-09-11 23:10,Heat Treat,ST-08,Quality query,2026-09-11 23:12
+AND-105,2026-09-11 07:30,Heat Treat,ST-10,Machine fault,2026-09-11 07:34
+AND-106,2026-09-11 13:54,Assembly,ST-04,Quality query,2026-09-11 14:04
+AND-107,2026-09-11 15:19,Assembly,ST-02,Machine fault,2026-09-11 15:20
+AND-108,2026-09-11 08:22,Assembly,ST-12,Quality query,2026-09-11 08:28
+AND-109,2026-09-12 05:20,Assembly,ST-02,Material shortage,2026-09-12 05:28
+AND-110,2026-09-12 01:04,Test,ST-12,Quality query,2026-09-12 01:14
+AND-111,2026-09-11 19:44,Test,ST-11,Material shortage,2026-09-11 19:45
+AND-112,2026-09-11 11:24,Test,ST-01,Machine fault,2026-09-11 11:25
+AND-113,2026-09-14 15:52,Machining,ST-03,Tooling,2026-09-14 16:03
+AND-114,2026-09-14 21:15,Machining,ST-12,Material shortage,2026-09-14 21:30
+AND-115,2026-09-14 12:07,Machining,ST-03,Engineering support,2026-09-14 12:08
+AND-116,2026-09-14 08:51,Machining,ST-07,Machine fault,2026-09-14 09:04
+AND-117,2026-09-14 06:01,Machining,ST-01,Machine fault,2026-09-14 06:07
+AND-118,2026-09-14 15:58,Heat Treat,ST-08,Tooling,2026-09-14 16:14
+AND-119,2026-09-14 17:23,Heat Treat,ST-02,Engineering support,2026-09-14 17:37
+AND-120,2026-09-14 15:07,Heat Treat,ST-11,Material shortage,2026-09-14 15:15
+AND-121,2026-09-14 19:06,Heat Treat,ST-11,Material shortage,2026-09-14 19:07
+AND-122,2026-09-14 17:13,Heat Treat,ST-01,Quality query,2026-09-14 17:25
+AND-123,2026-09-14 18:31,Assembly,ST-01,Machine fault,2026-09-14 18:32
+AND-124,2026-09-14 12:19,Assembly,ST-05,Material shortage,2026-09-14 12:23
+AND-125,2026-09-14 17:20,Assembly,ST-10,Material shortage,2026-09-14 17:21
+AND-126,2026-09-14 15:43,Assembly,ST-07,Tooling,2026-09-14 15:59
+AND-127,2026-09-15 09:27,Machining,ST-06,Tooling,2026-09-15 09:31
+AND-128,2026-09-16 05:44,Machining,ST-01,Tooling,2026-09-16 05:49
+AND-129,2026-09-15 09:21,Machining,ST-02,Engineering support,2026-09-15 09:36
+AND-130,2026-09-15 17:21,Machining,ST-01,Machine fault,2026-09-15 17:23
+AND-131,2026-09-15 12:30,Heat Treat,ST-05,Material shortage,2026-09-15 12:39
+AND-132,2026-09-15 09:40,Heat Treat,ST-04,Machine fault,2026-09-15 09:42
+AND-133,2026-09-15 15:36,Heat Treat,ST-10,Tooling,2026-09-15 15:43
+AND-134,2026-09-15 08:34,Heat Treat,ST-07,Quality query,2026-09-15 08:40
+AND-135,2026-09-15 13:13,Assembly,ST-03,Tooling,2026-09-15 13:14
+AND-136,2026-09-15 23:00,Assembly,ST-03,Machine fault,2026-09-15 23:01
+AND-137,2026-09-15 09:30,Assembly,ST-12,Machine fault,2026-09-15 09:36
+AND-138,2026-09-15 16:44,Test,ST-03,Material shortage,2026-09-15 16:45
+AND-139,2026-09-15 21:15,Test,ST-01,Engineering support,2026-09-15 21:19
+AND-140,2026-09-15 19:04,Test,ST-10,Material shortage,2026-09-15 19:22
+AND-141,2026-09-15 21:56,Test,ST-11,Quality query,2026-09-15 21:59
+AND-142,2026-09-15 21:44,Test,ST-02,Engineering support,2026-09-15 21:54
+AND-143,2026-09-16 16:14,Machining,ST-09,Machine fault,2026-09-16 16:15
+AND-144,2026-09-16 21:34,Machining,ST-05,Tooling,2026-09-16 21:35
+AND-145,2026-09-16 23:35,Machining,ST-11,Material shortage,2026-09-17 00:01
+AND-146,2026-09-16 08:00,Machining,ST-05,Quality query,2026-09-16 08:01
+AND-147,2026-09-16 06:40,Assembly,ST-06,Engineering support,2026-09-16 06:47
+AND-148,2026-09-16 14:14,Assembly,ST-12,Machine fault,2026-09-16 14:16
+AND-149,2026-09-16 09:59,Assembly,ST-07,Engineering support,2026-09-16 10:08
+AND-150,2026-09-16 18:15,Assembly,ST-08,Tooling,2026-09-16 18:17
+AND-151,2026-09-16 21:38,Assembly,ST-05,Machine fault,2026-09-16 21:45
+AND-152,2026-09-16 08:02,Test,ST-10,Tooling,2026-09-16 08:05
+AND-153,2026-09-17 13:56,Machining,ST-09,Tooling,2026-09-17 14:03
+AND-154,2026-09-17 22:32,Machining,ST-05,Quality query,2026-09-17 22:38
+AND-155,2026-09-17 09:09,Assembly,ST-12,Material shortage,2026-09-17 09:10
+AND-156,2026-09-17 13:09,Test,ST-05,Engineering support,2026-09-17 13:25
+AND-157,2026-09-17 08:54,Test,ST-07,Engineering support,2026-09-17 08:55
+AND-158,2026-09-17 12:42,Test,ST-10,Tooling,2026-09-17 12:58
+AND-159,2026-09-17 13:12,Test,ST-02,Quality query,2026-09-17 13:15
+AND-160,2026-09-19 00:21,Heat Treat,ST-06,Engineering support,2026-09-19 00:22
+AND-161,2026-09-19 00:16,Heat Treat,ST-02,Machine fault,2026-09-19 00:18
+AND-162,2026-09-18 11:41,Heat Treat,ST-11,Engineering support,2026-09-18 11:59
+AND-163,2026-09-18 12:45,Assembly,ST-07,Material shortage,2026-09-18 12:58
+AND-164,2026-09-18 08:42,Assembly,ST-04,Material shortage,2026-09-18 08:55
+AND-165,2026-09-18 09:31,Assembly,ST-08,Quality query,2026-09-18 09:32
+AND-166,2026-09-18 13:44,Assembly,ST-01,Material shortage,2026-09-18 13:50
+AND-167,2026-09-18 20:14,Test,ST-09,Machine fault,2026-09-18 20:15
+AND-168,2026-09-18 23:12,Test,ST-02,Machine fault,2026-09-18 23:44
+AND-169,2026-09-18 17:48,Test,ST-09,Machine fault,2026-09-18 17:49
+AND-170,2026-09-18 07:47,Test,ST-11,Machine fault,2026-09-18 07:49
+AND-171,2026-09-22 01:41,Machining,ST-09,Tooling,2026-09-22 02:07
+AND-172,2026-09-21 13:12,Machining,ST-11,Tooling,2026-09-21 13:18
+AND-173,2026-09-21 10:14,Machining,ST-03,Material shortage,2026-09-21 10:15
+AND-174,2026-09-21 17:30,Machining,ST-12,Quality query,2026-09-21 17:39
+AND-175,2026-09-21 09:47,Machining,ST-03,Engineering support,2026-09-21 09:50
+AND-176,2026-09-21 08:45,Heat Treat,ST-04,Tooling,2026-09-21 08:48
+AND-177,2026-09-21 08:22,Heat Treat,ST-11,Material shortage,2026-09-21 08:36
+AND-178,2026-09-22 03:22,Heat Treat,ST-03,Tooling,2026-09-22 03:36
+AND-179,2026-09-21 13:54,Assembly,ST-06,Engineering support,2026-09-21 14:10
+AND-180,2026-09-21 14:23,Assembly,ST-03,Tooling,2026-09-21 14:24
+AND-181,2026-09-21 23:31,Assembly,ST-02,Machine fault,2026-09-21 23:46
+AND-182,2026-09-21 09:57,Assembly,ST-04,Material shortage,2026-09-21 10:03
+AND-183,2026-09-21 08:34,Test,ST-10,Material shortage,2026-09-21 08:35
+AND-184,2026-09-21 15:51,Test,ST-09,Material shortage,2026-09-21 15:59
+AND-185,2026-09-21 15:24,Test,ST-04,Material shortage,2026-09-21 15:38
+AND-186,2026-09-22 08:57,Machining,ST-03,Engineering support,2026-09-22 08:59
+AND-187,2026-09-22 12:09,Heat Treat,ST-11,Quality query,2026-09-22 12:10
+AND-188,2026-09-22 19:23,Heat Treat,ST-04,Machine fault,2026-09-22 19:34
+AND-189,2026-09-22 09:11,Heat Treat,ST-06,Quality query,2026-09-22 09:31
+AND-190,2026-09-22 07:17,Assembly,ST-08,Quality query,2026-09-22 07:23
+AND-191,2026-09-22 21:37,Test,ST-10,Quality query,2026-09-22 21:41
+AND-192,2026-09-22 09:06,Test,ST-12,Quality query,2026-09-22 09:17
+AND-193,2026-09-22 15:55,Test,ST-07,Tooling,2026-09-22 15:56
+AND-194,2026-09-22 08:59,Test,ST-08,Tooling,2026-09-22 09:20
+AND-195,2026-09-22 06:25,Test,ST-08,Material shortage,2026-09-22 06:29
+AND-196,2026-09-23 11:10,Machining,ST-02,Engineering support,2026-09-23 11:14
+AND-197,2026-09-23 21:04,Machining,ST-07,Material shortage,2026-09-23 21:15
+AND-198,2026-09-23 10:11,Machining,ST-07,Material shortage,2026-09-23 10:12
+AND-199,2026-09-23 13:12,Machining,ST-09,Quality query,2026-09-23 13:30
+AND-200,2026-09-23 19:23,Heat Treat,ST-12,Material shortage,2026-09-23 19:42
+AND-201,2026-09-24 02:12,Heat Treat,ST-11,Tooling,2026-09-24 02:25
+AND-202,2026-09-24 04:30,Heat Treat,ST-05,Tooling,2026-09-24 04:33
+AND-203,2026-09-23 16:46,Heat Treat,ST-05,Quality query,2026-09-23 16:49
+AND-204,2026-09-23 07:50,Assembly,ST-03,Quality query,2026-09-23 08:14
+AND-205,2026-09-24 02:20,Test,ST-02,Engineering support,2026-09-24 02:21
+AND-206,2026-09-24 07:18,Machining,ST-11,Engineering support,2026-09-24 07:20
+AND-207,2026-09-24 12:57,Machining,ST-11,Quality query,2026-09-24 13:03
+AND-208,2026-09-24 17:01,Heat Treat,ST-07,Quality query,2026-09-24 17:04
+AND-209,2026-09-25 00:52,Assembly,ST-11,Material shortage,2026-09-25 00:54
+AND-210,2026-09-25 00:04,Assembly,ST-11,Tooling,2026-09-25 00:25
+AND-211,2026-09-25 00:05,Assembly,ST-11,Material shortage,2026-09-25 00:06
+AND-212,2026-09-24 16:19,Assembly,ST-08,Machine fault,2026-09-24 16:22
+AND-213,2026-09-25 11:42,Machining,ST-09,Machine fault,2026-09-25 11:44
+AND-214,2026-09-25 15:16,Assembly,ST-11,Material shortage,2026-09-25 15:17
+AND-215,2026-09-25 09:17,Assembly,ST-11,Material shortage,2026-09-25 09:18
+AND-216,2026-09-25 16:26,Assembly,ST-04,Engineering support,2026-09-25 16:32
+AND-217,2026-09-26 02:02,Assembly,ST-07,Material shortage,2026-09-26 02:14
+AND-218,2026-09-25 08:21,Assembly,ST-01,Machine fault,2026-09-25 08:30
+AND-219,2026-09-25 06:37,Test,ST-11,Material shortage,2026-09-25 06:46
+AND-220,2026-09-25 09:39,Test,ST-05,Material shortage,2026-09-25 10:01
+AND-221,2026-09-28 19:44,Heat Treat,ST-07,Machine fault,2026-09-28 19:46
+AND-222,2026-09-28 13:57,Heat Treat,ST-10,Tooling,2026-09-28 14:03
+AND-223,2026-09-28 15:48,Heat Treat,ST-08,Engineering support,2026-09-28 15:53
+AND-224,2026-09-28 20:52,Heat Treat,ST-08,Material shortage,2026-09-28 20:53
+AND-225,2026-09-28 07:26,Assembly,ST-03,Material shortage,2026-09-28 07:29
+AND-226,2026-09-30 02:14,Machining,ST-12,Material shortage,2026-09-30 02:15
+AND-227,2026-09-29 06:37,Machining,ST-10,Quality query,2026-09-29 06:53
+AND-228,2026-09-29 17:40,Machining,ST-10,Tooling,2026-09-29 17:54
+AND-229,2026-09-29 18:50,Machining,ST-07,Material shortage,2026-09-29 18:56
+AND-230,2026-09-30 02:02,Heat Treat,ST-03,Tooling,2026-09-30 02:04
+AND-231,2026-09-29 18:07,Heat Treat,ST-10,Quality query,2026-09-29 18:08
+AND-232,2026-09-29 11:33,Heat Treat,ST-01,Tooling,2026-09-29 11:35
+AND-233,2026-09-30 03:56,Heat Treat,ST-09,Engineering support,2026-09-30 04:06
+AND-234,2026-09-29 18:38,Assembly,ST-04,Quality query,2026-09-29 18:41
+AND-235,2026-09-30 03:50,Assembly,ST-12,Machine fault,2026-09-30 04:00
+AND-236,2026-09-29 11:08,Assembly,ST-07,Machine fault,2026-09-29 11:09
+AND-237,2026-09-29 06:15,Assembly,ST-11,Engineering support,2026-09-29 06:33
+AND-238,2026-09-29 07:59,Test,ST-01,Quality query,2026-09-29 08:00
+AND-239,2026-09-29 06:35,Test,ST-01,Machine fault,2026-09-29 06:37
+AND-240,2026-09-29 17:13,Test,ST-05,Engineering support,2026-09-29 17:14
+AND-241,2026-09-29 20:49,Test,ST-08,Material shortage,2026-09-29 21:04
+AND-242,2026-09-29 14:00,Test,ST-09,Tooling,2026-09-29 14:01
+AND-243,2026-09-30 10:38,Machining,ST-07,Tooling,2026-09-30 10:44
+AND-244,2026-09-30 10:53,Machining,ST-08,Machine fault,2026-09-30 10:56
+AND-245,2026-09-30 22:45,Machining,ST-04,Tooling,2026-09-30 22:51
+AND-246,2026-09-30 06:17,Heat Treat,ST-06,Material shortage,2026-09-30 06:18
+AND-247,2026-09-30 08:05,Heat Treat,ST-12,Quality query,2026-09-30 08:07
+AND-248,2026-09-30 11:01,Assembly,ST-05,Engineering support,2026-09-30 11:09
+AND-249,2026-09-30 07:35,Assembly,ST-08,Material shortage,2026-09-30 07:54
+AND-250,2026-09-30 11:25,Assembly,ST-06,Quality query,2026-09-30 11:30
+AND-251,2026-09-30 15:54,Test,ST-01,Machine fault,2026-09-30 15:56
+AND-252,2026-09-30 20:08,Test,ST-06,Machine fault,2026-09-30 20:09
+AND-253,2026-09-30 10:30,Test,ST-07,Quality query,2026-09-30 10:31
+AND-254,2026-09-30 08:00,Test,ST-06,Engineering support,2026-09-30 08:26
+AND-255,2026-10-02 03:17,Machining,ST-10,Machine fault,2026-10-02 03:39
+AND-256,2026-10-01 16:58,Machining,ST-07,Tooling,2026-10-01 17:13
+AND-257,2026-10-01 08:49,Heat Treat,ST-05,Quality query,2026-10-01 08:57
+AND-258,2026-10-01 20:42,Assembly,ST-05,Engineering support,2026-10-01 20:43
+AND-259,2026-10-01 10:51,Assembly,ST-10,Quality query,2026-10-01 11:06
+AND-260,2026-10-01 12:01,Test,ST-05,Machine fault,2026-10-01 12:18
+AND-261,2026-10-01 16:25,Test,ST-05,Tooling,2026-10-01 16:26
+AND-262,2026-10-01 10:29,Test,ST-11,Engineering support,2026-10-01 10:37
+AND-263,2026-10-01 07:54,Test,ST-06,Engineering support,2026-10-01 07:55
+AND-264,2026-10-02 12:10,Machining,ST-04,Engineering support,2026-10-02 12:13
+AND-265,2026-10-02 18:32,Machining,ST-09,Engineering support,2026-10-02 18:38
+AND-266,2026-10-03 00:18,Machining,ST-03,Material shortage,2026-10-03 00:19
+AND-267,2026-10-02 06:31,Assembly,ST-02,Tooling,2026-10-02 06:38
+AND-268,2026-10-02 18:05,Assembly,ST-09,Machine fault,2026-10-02 18:07
+AND-269,2026-10-02 11:22,Assembly,ST-07,Machine fault,2026-10-02 11:29
+AND-270,2026-10-02 12:49,Assembly,ST-03,Material shortage,2026-10-02 12:54
+AND-271,2026-10-02 08:34,Test,ST-07,Machine fault,2026-10-02 08:35
+AND-272,2026-10-05 23:15,Machining,ST-04,Engineering support,2026-10-05 23:30
+AND-273,2026-10-05 06:14,Machining,ST-12,Machine fault,2026-10-05 06:15
+AND-274,2026-10-05 12:38,Machining,ST-12,Tooling,2026-10-05 12:39
+AND-275,2026-10-06 05:22,Heat Treat,ST-12,Engineering support,2026-10-06 05:27
+AND-276,2026-10-05 08:49,Heat Treat,ST-11,Tooling,2026-10-05 08:54
+AND-277,2026-10-06 04:52,Test,ST-10,Engineering support,2026-10-06 04:53
+AND-278,2026-10-05 06:35,Test,ST-06,Engineering support,2026-10-05 06:36
+AND-279,2026-10-05 08:12,Test,ST-07,Tooling,2026-10-05 08:19
+AND-280,2026-10-05 06:37,Test,ST-09,Engineering support,2026-10-05 06:38
+AND-281,2026-10-06 07:44,Machining,ST-03,Quality query,2026-10-06 07:46
+AND-282,2026-10-06 23:20,Machining,ST-12,Quality query,2026-10-06 23:52
+AND-283,2026-10-06 09:54,Assembly,ST-05,Tooling,2026-10-06 09:56
+AND-284,2026-10-06 14:09,Test,ST-11,Tooling,2026-10-06 14:11
+AND-285,2026-10-07 18:18,Machining,ST-11,Tooling,2026-10-07 18:26
+AND-286,2026-10-07 18:36,Machining,ST-01,Engineering support,2026-10-07 18:46
+AND-287,2026-10-07 19:33,Machining,ST-12,Quality query,2026-10-07 19:35
+AND-288,2026-10-07 16:23,Machining,ST-10,Material shortage,2026-10-07 16:25
+AND-289,2026-10-07 12:52,Machining,ST-11,Tooling,2026-10-07 12:58
+AND-290,2026-10-07 22:32,Heat Treat,ST-04,Material shortage,2026-10-07 22:39
+AND-291,2026-10-07 13:10,Heat Treat,ST-03,Quality query,2026-10-07 13:12
+AND-292,2026-10-07 20:45,Heat Treat,ST-01,Quality query,2026-10-07 20:55
+AND-293,2026-10-07 19:12,Assembly,ST-07,Tooling,2026-10-07 19:29
+AND-294,2026-10-07 12:24,Test,ST-03,Quality query,2026-10-07 12:26
+AND-295,2026-10-07 10:26,Test,ST-10,Quality query,2026-10-07 10:56
+AND-296,2026-10-08 08:49,Heat Treat,ST-02,Quality query,2026-10-08 08:52
+AND-297,2026-10-08 23:57,Assembly,ST-04,Machine fault,2026-10-08 23:58
+AND-298,2026-10-08 14:34,Test,ST-02,Tooling,2026-10-08 14:41
+AND-299,2026-10-08 17:06,Test,ST-01,Tooling,2026-10-08 17:22
+AND-300,2026-10-08 23:12,Test,ST-10,Engineering support,2026-10-08 23:29
+AND-301,2026-10-09 16:41,Machining,ST-12,Material shortage,2026-10-09 16:42
+AND-302,2026-10-09 11:28,Machining,ST-01,Material shortage,2026-10-09 11:30
+AND-303,2026-10-10 04:16,Heat Treat,ST-05,Tooling,2026-10-10 04:26
+AND-304,2026-10-09 07:50,Assembly,ST-03,Material shortage,2026-10-09 07:51
+AND-305,2026-10-09 17:54,Test,ST-10,Material shortage,2026-10-09 17:55
+AND-306,2026-10-12 15:23,Heat Treat,ST-03,Machine fault,2026-10-12 15:29
+AND-307,2026-10-12 09:11,Heat Treat,ST-12,Tooling,2026-10-12 09:12
+AND-308,2026-10-13 00:12,Heat Treat,ST-09,Tooling,2026-10-13 00:24
+AND-309,2026-10-12 14:52,Assembly,ST-08,Tooling,2026-10-12 15:02
+AND-310,2026-10-12 08:13,Assembly,ST-10,Engineering support,2026-10-12 08:16
+AND-311,2026-10-12 23:33,Assembly,ST-01,Tooling,2026-10-13 00:04
+AND-312,2026-10-12 10:37,Assembly,ST-08,Quality query,2026-10-12 10:38
+AND-313,2026-10-12 18:00,Assembly,ST-06,Engineering support,2026-10-12 18:05
+AND-314,2026-10-13 11:06,Machining,ST-10,Machine fault,2026-10-13 11:07
+AND-315,2026-10-13 10:33,Heat Treat,ST-05,Engineering support,2026-10-13 10:34
+AND-316,2026-10-13 15:15,Heat Treat,ST-08,Quality query,2026-10-13 15:32
+AND-317,2026-10-13 17:51,Heat Treat,ST-02,Quality query,2026-10-13 17:56
+AND-318,2026-10-13 06:24,Test,ST-08,Engineering support,2026-10-13 06:25
+AND-319,2026-10-14 19:52,Heat Treat,ST-12,Engineering support,2026-10-14 19:56
+AND-320,2026-10-15 05:40,Test,ST-01,Tooling,2026-10-15 05:41
+AND-321,2026-10-14 06:18,Test,ST-04,Engineering support,2026-10-14 06:27
+AND-322,2026-10-14 06:53,Test,ST-10,Engineering support,2026-10-14 06:58
+AND-323,2026-10-14 09:01,Test,ST-06,Material shortage,2026-10-14 09:02
+AND-324,2026-10-14 15:28,Test,ST-08,Tooling,2026-10-14 15:29
+AND-325,2026-10-15 07:52,Machining,ST-03,Quality query,2026-10-15 07:56
+AND-326,2026-10-15 13:18,Machining,ST-03,Material shortage,2026-10-15 13:20
+AND-327,2026-10-15 09:12,Machining,ST-11,Machine fault,2026-10-15 09:18
+AND-328,2026-10-15 19:30,Machining,ST-04,Quality query,2026-10-15 19:32
+AND-329,2026-10-15 14:00,Machining,ST-04,Quality query,2026-10-15 14:07
+AND-330,2026-10-15 09:46,Heat Treat,ST-01,Machine fault,2026-10-15 09:58
+AND-331,2026-10-15 18:25,Heat Treat,ST-10,Engineering support,2026-10-15 18:29
+AND-332,2026-10-15 09:57,Assembly,ST-03,Material shortage,2026-10-15 09:58
+AND-333,2026-10-16 03:14,Assembly,ST-09,Machine fault,2026-10-16 03:27
+AND-334,2026-10-16 16:40,Machining,ST-11,Tooling,2026-10-16 16:41
+AND-335,2026-10-16 19:19,Machining,ST-03,Tooling,2026-10-16 19:26
+AND-336,2026-10-16 11:36,Machining,ST-10,Machine fault,2026-10-16 11:37
+AND-337,2026-10-16 08:17,Machining,ST-08,Tooling,2026-10-16 08:18
+AND-338,2026-10-16 15:21,Heat Treat,ST-10,Quality query,2026-10-16 15:35
+AND-339,2026-10-16 06:41,Heat Treat,ST-06,Engineering support,2026-10-16 06:54
+AND-340,2026-10-16 15:08,Test,ST-06,Engineering support,2026-10-16 15:09
+AND-341,2026-10-19 23:17,Machining,ST-02,Material shortage,2026-10-19 23:27
+AND-342,2026-10-19 13:22,Machining,ST-07,Quality query,2026-10-19 13:40
+AND-343,2026-10-19 11:02,Machining,ST-11,Engineering support,2026-10-19 11:04
+AND-344,2026-10-19 09:43,Machining,ST-11,Quality query,2026-10-19 09:44
+AND-345,2026-10-19 15:28,Machining,ST-12,Machine fault,2026-10-19 15:38
+AND-346,2026-10-19 15:32,Heat Treat,ST-07,Material shortage,2026-10-19 15:33
+AND-347,2026-10-19 08:12,Heat Treat,ST-01,Engineering support,2026-10-19 08:17
+AND-348,2026-10-19 07:39,Heat Treat,ST-02,Quality query,2026-10-19 07:40
+AND-349,2026-10-19 20:29,Heat Treat,ST-01,Machine fault,2026-10-19 20:40
+AND-350,2026-10-19 21:16,Heat Treat,ST-12,Quality query,2026-10-19 21:27
+AND-351,2026-10-19 13:15,Test,ST-03,Material shortage,2026-10-19 13:16
+AND-352,2026-10-19 08:31,Test,ST-02,Machine fault,2026-10-19 08:35
+AND-353,2026-10-19 21:25,Test,ST-07,Engineering support,2026-10-19 21:28
+AND-354,2026-10-19 17:25,Test,ST-01,Material shortage,2026-10-19 17:27
+AND-355,2026-10-19 14:56,Test,ST-05,Engineering support,2026-10-19 15:00
+AND-356,2026-10-20 08:38,Machining,ST-03,Material shortage,2026-10-20 09:04
+AND-357,2026-10-20 09:18,Machining,ST-09,Tooling,2026-10-20 09:19
+AND-358,2026-10-20 10:28,Machining,ST-06,Engineering support,2026-10-20 10:31
+AND-359,2026-10-20 12:17,Machining,ST-11,Tooling,2026-10-20 12:36
+AND-360,2026-10-21 01:24,Heat Treat,ST-12,Material shortage,2026-10-21 01:40
+AND-361,2026-10-20 20:10,Heat Treat,ST-05,Quality query,2026-10-20 20:11
+AND-362,2026-10-20 13:56,Test,ST-03,Quality query,2026-10-20 13:59
+AND-363,2026-10-20 07:33,Test,ST-12,Material shortage,2026-10-20 07:34
+AND-364,2026-10-20 07:23,Test,ST-09,Quality query,2026-10-20 07:28
+AND-365,2026-10-20 14:57,Test,ST-08,Engineering support,2026-10-20 14:58
+AND-366,2026-10-21 19:58,Machining,ST-02,Tooling,2026-10-21 20:10
+AND-367,2026-10-22 01:48,Machining,ST-07,Engineering support,2026-10-22 01:49
+AND-368,2026-10-21 19:13,Machining,ST-12,Engineering support,2026-10-21 19:14
+AND-369,2026-10-21 07:22,Machining,ST-04,Material shortage,2026-10-21 07:26
+AND-370,2026-10-21 14:29,Heat Treat,ST-07,Tooling,2026-10-21 14:30
+AND-371,2026-10-21 12:17,Heat Treat,ST-03,Material shortage,2026-10-21 12:23
+AND-372,2026-10-21 08:58,Heat Treat,ST-12,Quality query,2026-10-21 09:14
+AND-373,2026-10-21 15:39,Heat Treat,ST-04,Material shortage,2026-10-21 15:43
+AND-374,2026-10-21 11:23,Heat Treat,ST-03,Machine fault,2026-10-21 11:24
+AND-375,2026-10-22 05:40,Assembly,ST-12,Material shortage,2026-10-22 05:43
+AND-376,2026-10-21 15:22,Test,ST-10,Quality query,2026-10-21 15:37
+AND-377,2026-10-21 18:49,Test,ST-01,Material shortage,2026-10-21 18:57
+AND-378,2026-10-22 11:57,Machining,ST-08,Tooling,2026-10-22 12:00
+AND-379,2026-10-23 05:19,Machining,ST-09,Quality query,2026-10-23 05:22
+AND-380,2026-10-23 02:16,Machining,ST-07,Quality query,2026-10-23 02:27
+AND-381,2026-10-22 17:28,Heat Treat,ST-02,Engineering support,2026-10-22 17:41
+AND-382,2026-10-22 21:32,Assembly,ST-09,Tooling,2026-10-22 21:37
+AND-383,2026-10-22 09:52,Assembly,ST-07,Engineering support,2026-10-22 09:53
+AND-384,2026-10-22 22:55,Test,ST-02,Quality query,2026-10-22 22:56
+AND-385,2026-10-22 10:18,Test,ST-04,Quality query,2026-10-22 10:27
+AND-386,2026-10-23 14:50,Machining,ST-09,Quality query,2026-10-23 14:56
+AND-387,2026-10-23 07:35,Machining,ST-10,Material shortage,2026-10-23 07:38
+AND-388,2026-10-23 16:46,Machining,ST-12,Material shortage,2026-10-23 16:53
+AND-389,2026-10-23 13:38,Machining,ST-07,Material shortage,2026-10-23 13:41
+AND-390,2026-10-23 17:36,Machining,ST-12,Machine fault,2026-10-23 17:44
+AND-391,2026-10-23 11:25,Heat Treat,ST-09,Engineering support,2026-10-23 11:38
+AND-392,2026-10-23 11:34,Heat Treat,ST-04,Material shortage,2026-10-23 11:44
+AND-393,2026-10-23 17:59,Heat Treat,ST-07,Material shortage,2026-10-23 18:04
+AND-394,2026-10-23 18:17,Heat Treat,ST-06,Engineering support,2026-10-23 18:24
+AND-395,2026-10-23 18:33,Assembly,ST-09,Machine fault,2026-10-23 18:39
+AND-396,2026-10-23 10:14,Assembly,ST-11,Material shortage,2026-10-23 10:15
+AND-397,2026-10-24 05:00,Assembly,ST-12,Tooling,2026-10-24 05:15
+AND-398,2026-10-23 13:00,Test,ST-07,Quality query,2026-10-23 13:03
+AND-399,2026-10-23 17:01,Test,ST-02,Quality query,2026-10-23 17:06
+AND-400,2026-10-23 07:44,Test,ST-09,Engineering support,2026-10-23 07:46
