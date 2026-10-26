@@ -1,0 +1,97 @@
+RecordID,RecordType,RaisedDateTime,Area,PartNumber,Description,Status
+ESC-5000,Escape,2026-08-27 23:20,Machining,PN-1056,Wrong label,Closed
+ESC-5001,Escape,2026-08-27 23:43,Machining,PN-1088,Surface finish,Closed
+NCR-5002,NCR,2026-08-27 19:32,Heat Treat,PN-1021,Dimension out of tolerance,Closed
+ESC-5003,Escape,2026-08-27 15:07,Test,PN-1075,Surface finish,Closed
+NCR-5004,NCR,2026-08-27 07:01,Test,PN-1054,Surface finish,Closed
+NCR-5005,NCR,2026-08-28 08:33,Machining,PN-1017,Wrong label,Closed
+NCR-5006,NCR,2026-08-28 14:04,Heat Treat,PN-1078,Surface finish,Closed
+NCR-5007,NCR,2026-08-28 19:01,Test,PN-1093,Wrong label,Closed
+NCR-5008,NCR,2026-08-31 22:13,Heat Treat,PN-1084,Missing fastener,Closed
+CON-5009,Concession,2026-09-01 22:06,Machining,PN-1046,Missing fastener,Closed
+CON-5010,Concession,2026-09-01 08:14,Assembly,PN-1027,Dimension out of tolerance,Closed
+CON-5011,Concession,2026-09-03 04:53,Heat Treat,PN-1019,Hardness low,Closed
+NCR-5012,NCR,2026-09-02 13:13,Assembly,PN-1030,Dimension out of tolerance,Closed
+NCR-5013,NCR,2026-09-02 19:36,Test,PN-1094,Surface finish,Closed
+NCR-5014,NCR,2026-09-02 19:59,Test,PN-1001,Surface finish,Closed
+NCR-5015,NCR,2026-09-03 12:23,Machining,PN-1099,Missing fastener,Closed
+CON-5016,Concession,2026-09-03 23:25,Test,PN-1047,Surface finish,Closed
+NCR-5017,NCR,2026-09-03 20:10,Test,PN-1014,Surface finish,Closed
+PSR-5018,Product Safety Report,2026-09-04 22:06,Machining,PN-1031,Dimension out of tolerance,Closed
+NCR-5019,NCR,2026-09-08 00:47,Heat Treat,PN-1011,Hardness low,Closed
+CON-5020,Concession,2026-09-08 19:25,Heat Treat,PN-1088,Dimension out of tolerance,Closed
+NCR-5021,NCR,2026-09-08 21:14,Heat Treat,PN-1094,Missing fastener,Closed
+NCR-5022,NCR,2026-09-08 16:01,Heat Treat,PN-1053,Wrong label,Closed
+NCR-5023,NCR,2026-09-08 13:12,Assembly,PN-1066,Wrong label,Closed
+NCR-5024,NCR,2026-09-08 12:59,Test,PN-1050,Dimension out of tolerance,Closed
+NCR-5025,NCR,2026-09-10 05:54,Machining,PN-1050,Missing fastener,Closed
+NCR-5026,NCR,2026-09-09 08:15,Test,PN-1015,Dimension out of tolerance,Closed
+NCR-5027,NCR,2026-09-11 00:47,Machining,PN-1018,Dimension out of tolerance,Closed
+CON-5028,Concession,2026-09-10 12:59,Heat Treat,PN-1022,Dimension out of tolerance,Closed
+NCR-5029,NCR,2026-09-10 15:02,Assembly,PN-1001,Dimension out of tolerance,Closed
+NCR-5030,NCR,2026-09-11 14:11,Machining,PN-1008,Surface finish,Closed
+NCR-5031,NCR,2026-09-11 21:00,Assembly,PN-1092,Wrong label,Closed
+ESC-5032,Escape,2026-09-15 12:05,Machining,PN-1045,Wrong label,Closed
+NCR-5033,NCR,2026-09-15 13:38,Heat Treat,PN-1099,Missing fastener,Closed
+NCR-5034,NCR,2026-09-16 02:31,Heat Treat,PN-1045,Hardness low,Closed
+NCR-5035,NCR,2026-09-15 21:49,Assembly,PN-1094,Dimension out of tolerance,Closed
+NCR-5036,NCR,2026-09-16 12:17,Machining,PN-1089,Missing fastener,Closed
+NCR-5037,NCR,2026-09-16 07:52,Test,PN-1002,Hardness low,Closed
+NCR-5038,NCR,2026-09-17 12:50,Machining,PN-1041,Dimension out of tolerance,Closed
+NCR-5039,NCR,2026-09-17 21:49,Machining,PN-1018,Dimension out of tolerance,Closed
+NCR-5040,NCR,2026-09-17 09:43,Assembly,PN-1081,Wrong label,Closed
+NCR-5041,NCR,2026-09-18 11:52,Machining,PN-1037,Surface finish,Closed
+PSR-5042,Product Safety Report,2026-09-18 18:53,Heat Treat,PN-1050,Hardness low,Closed
+NCR-5043,NCR,2026-09-18 16:01,Assembly,PN-1044,Missing fastener,Closed
+NCR-5044,NCR,2026-09-21 08:11,Machining,PN-1013,Dimension out of tolerance,Closed
+NCR-5045,NCR,2026-09-21 09:34,Machining,PN-1021,Wrong label,Closed
+NCR-5046,NCR,2026-09-21 13:13,Assembly,PN-1004,Missing fastener,Closed
+NCR-5047,NCR,2026-09-21 06:53,Assembly,PN-1009,Missing fastener,Closed
+NCR-5048,NCR,2026-09-22 20:09,Assembly,PN-1093,Hardness low,Closed
+CON-5049,Concession,2026-09-22 21:10,Test,PN-1062,Surface finish,Closed
+NCR-5050,NCR,2026-09-22 13:01,Test,PN-1084,Hardness low,Closed
+NCR-5051,NCR,2026-09-23 08:14,Test,PN-1028,Missing fastener,Closed
+NCR-5052,NCR,2026-09-24 09:18,Heat Treat,PN-1066,Wrong label,Closed
+NCR-5053,NCR,2026-09-24 09:22,Assembly,PN-1091,Dimension out of tolerance,Closed
+NCR-5054,NCR,2026-09-28 09:54,Machining,PN-1001,Hardness low,Closed
+NCR-5055,NCR,2026-09-28 20:42,Assembly,PN-1036,Hardness low,Closed
+NCR-5056,NCR,2026-09-29 08:52,Assembly,PN-1038,Missing fastener,Closed
+NCR-5057,NCR,2026-09-30 13:01,Heat Treat,PN-1052,Wrong label,Closed
+NCR-5058,NCR,2026-09-30 10:19,Assembly,PN-1051,Surface finish,Closed
+CON-5059,Concession,2026-10-01 09:04,Machining,PN-1090,Surface finish,Closed
+NCR-5060,NCR,2026-10-01 11:04,Heat Treat,PN-1057,Surface finish,Closed
+NCR-5061,NCR,2026-10-01 13:17,Test,PN-1073,Surface finish,Closed
+NCR-5062,NCR,2026-10-03 03:31,Heat Treat,PN-1022,Hardness low,Closed
+CON-5063,Concession,2026-10-06 05:11,Heat Treat,PN-1047,Hardness low,Closed
+CON-5064,Concession,2026-10-06 03:27,Assembly,PN-1041,Missing fastener,Closed
+NCR-5065,NCR,2026-10-06 15:53,Test,PN-1087,Hardness low,Closed
+NCR-5066,NCR,2026-10-07 11:36,Machining,PN-1071,Surface finish,Closed
+NCR-5067,NCR,2026-10-08 18:31,Assembly,PN-1038,Wrong label,Closed
+NCR-5068,NCR,2026-10-08 23:10,Assembly,PN-1025,Missing fastener,Closed
+NCR-5069,NCR,2026-10-08 20:38,Test,PN-1010,Wrong label,Closed
+CON-5070,Concession,2026-10-09 07:47,Machining,PN-1097,Surface finish,Closed
+NCR-5071,NCR,2026-10-09 20:39,Machining,PN-1011,Surface finish,Closed
+NCR-5072,NCR,2026-10-09 13:06,Assembly,PN-1067,Surface finish,Closed
+NCR-5073,NCR,2026-10-09 12:15,Assembly,PN-1031,Surface finish,Closed
+NCR-5074,NCR,2026-10-12 19:05,Machining,PN-1067,Missing fastener,Closed
+NCR-5075,NCR,2026-10-12 10:18,Test,PN-1021,Dimension out of tolerance,Closed
+NCR-5076,NCR,2026-10-13 14:24,Machining,PN-1076,Dimension out of tolerance,Closed
+ESC-5077,Escape,2026-10-13 17:33,Heat Treat,PN-1056,Wrong label,Closed
+CON-5078,Concession,2026-10-13 06:51,Assembly,PN-1084,Hardness low,Closed
+NCR-5079,NCR,2026-10-14 08:14,Machining,PN-1066,Surface finish,Closed
+NCR-5080,NCR,2026-10-14 06:56,Assembly,PN-1073,Wrong label,Closed
+NCR-5081,NCR,2026-10-14 07:58,Test,PN-1058,Missing fastener,Closed
+NCR-5082,NCR,2026-10-16 05:35,Heat Treat,PN-1005,Dimension out of tolerance,Closed
+NCR-5083,NCR,2026-10-16 13:15,Machining,PN-1061,Wrong label,Closed
+NCR-5084,NCR,2026-10-16 23:21,Heat Treat,PN-1013,Wrong label,Closed
+CON-5085,Concession,2026-10-19 14:06,Heat Treat,PN-1090,Hardness low,Closed
+NCR-5086,NCR,2026-10-19 19:58,Assembly,PN-1079,Dimension out of tolerance,Closed
+NCR-5087,NCR,2026-10-20 08:22,Assembly,PN-1006,Hardness low,Closed
+NCR-5088,NCR,2026-10-21 10:45,Heat Treat,PN-1070,Dimension out of tolerance,Open
+NCR-5089,NCR,2026-10-22 04:58,Test,PN-1028,Wrong label,Open
+NCR-5090,NCR,2026-10-22 11:24,Heat Treat,PN-1037,Hardness low,Open
+NCR-5091,NCR,2026-10-22 20:09,Assembly,PN-1052,Dimension out of tolerance,Open
+NCR-5092,NCR,2026-10-22 23:37,Test,PN-1091,Missing fastener,Open
+NCR-5093,NCR,2026-10-22 13:54,Test,PN-1081,Hardness low,Open
+ESC-5094,Escape,2026-10-23 18:43,Heat Treat,PN-1055,Hardness low,Open
+NCR-5095,NCR,2026-10-23 11:07,Assembly,PN-1077,Missing fastener,Open

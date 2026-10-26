@@ -1,0 +1,12 @@
+VisitID,VisitDate,Customer,Area,Purpose,Host
+V-1,2026-08-28,Customer C,Heat Treat,First article,Site Lead
+V-2,2026-09-01,Customer A,Test,Programme review,Site Lead
+V-3,2026-09-04,Customer B,Machining,Source inspection,Site Lead
+V-4,2026-09-07,Customer B,Machining,Audit,Quality Manager
+V-5,2026-09-08,Regulator,Assembly,Audit,Programme Manager
+V-6,2026-09-23,Customer C,Machining,Audit,Quality Manager
+V-7,2026-10-06,Regulator,Assembly,Programme review,Programme Manager
+V-8,2026-10-12,Customer A,Machining,First article,Quality Manager
+V-9,2026-10-22,Customer B,Assembly,Audit,Site Lead
+V-10,2026-10-29,Customer C,Machining,First article,Site Lead
+V-11,2026-11-06,Customer C,Test,Source inspection,Site Lead

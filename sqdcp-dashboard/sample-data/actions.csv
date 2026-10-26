@@ -1,0 +1,9 @@
+ActionID,DateRaised,Pillar,Area,Issue,Countermeasure,Owner,DueDate,Status
+ACT-001,2026-10-22,Safety,Assembly,Repeat oil spills at Machining cell 3,Fit drip tray and add to TPM check,M.Jones,2026-10-29,Open
+ACT-002,2026-10-25,Quality,Heat Treat,Escape: missing fastener at customer,Add torque-count poka-yoke at ST-07,J.Smith,2026-10-28,In Progress
+ACT-003,2026-10-24,Delivery,Machining,RFT System below target 3 days,Fixture calibration and 5-why on top failure mode,K.Lee,2026-11-02,Open
+ACT-004,2026-10-18,Delivery,Test,Night shift stop call waits >20 min,Add team leader rota for night andon response,J.Smith,2026-10-21,In Progress
+ACT-005,2026-10-20,Cost,Machining,Scrap spike on PN-1042,Check material cert and first-off approval,M.Jones,2026-10-30,Closed
+ACT-006,2026-10-23,People,Assembly,Customer A source inspection Thursday,5S audit of Test area Wednesday PM,J.Smith,2026-10-27,In Progress
+ACT-007,2026-10-22,Quality,Assembly,Concession trend on hardness,Review furnace FURN-02 profile with Process Eng,K.Lee,2026-10-27,In Progress
+ACT-008,2026-10-16,Safety,Test,Near miss: load swung near operator,Re-brief lifting plan; exclusion zone marking,M.Jones,2026-10-22,Open

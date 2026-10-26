@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQDCP Start of Shift</title>
+<style>
+:root { --bg:#ECEFF1; --card:#FFFFFF; --ink:#212121; --muted:#616161; --line:#E0E0E0; --head:#263238; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121417; --card:#1E2227; --ink:#ECEFF1; --muted:#A7B0B8; --line:#2C3238; --head:#0B0D0F; } }
+:root[data-theme="dark"] { --bg:#121417; --card:#1E2227; --ink:#ECEFF1; --muted:#A7B0B8; --line:#2C3238; --head:#0B0D0F; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.35 "Segoe UI", system-ui, sans-serif; }
+.top { background:var(--head); color:#fff; padding:12px 16px; display:flex; flex-wrap:wrap; gap:8px 24px; align-items:baseline; }
+.top h1 { font-size:20px; margin:0; } .top .sub { opacity:.8; }
+.banner { display:flex; flex-wrap:wrap; gap:12px; padding:12px 16px 0; }
+.stat { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:8px 12px; min-width:150px; }
+.stat b { display:block; font-size:22px; } .stat span { color:var(--muted); font-size:12px; }
+.grid { display:grid; grid-template-columns:repeat(5, minmax(0,1fr)); gap:12px; padding:12px 16px; }
+@media (max-width:1100px) { .grid { grid-template-columns:repeat(2, minmax(0,1fr)); } }
+@media (max-width:600px) { .grid { grid-template-columns:1fr; } }
+.pillar { background:var(--card); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+.pillar header { color:#fff; display:flex; align-items:center; gap:10px; padding:8px 12px; }
+.letter { font-size:28px; font-weight:700; width:34px; } .pname { font-weight:600; flex:1; } .pstat { font-size:12px; text-transform:uppercase; letter-spacing:.05em; }
+.tile { position:relative; border-left:6px solid; margin:8px; padding:6px 10px; background:var(--bg); border-radius:4px; }
+.kname { font-size:12px; color:var(--muted); } .kval { font-size:26px; font-weight:600; }
+.kmeta { display:flex; gap:10px; font-size:11px; color:var(--muted); } .arrow { font-weight:700; font-size:14px; margin-left:auto; }
+.chip { position:absolute; top:6px; right:8px; color:#fff; font-size:10px; padding:1px 6px; border-radius:8px; }
+.calhead { font-size:11px; color:var(--muted); padding:4px 10px 0; }
+.cal { display:grid; grid-template-columns:repeat(7, 1fr); gap:3px; padding:6px 10px 10px; }
+.day { color:#fff; font-size:10px; text-align:center; border-radius:3px; padding:3px 0; }
+.day.future { color:var(--muted); border:1px dashed var(--line); }
+.lower { display:grid; grid-template-columns:3fr 1fr; gap:12px; padding:0 16px 16px; }
+@media (max-width:900px) { .lower { grid-template-columns:1fr; } }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:10px 12px; overflow-x:auto; }
+.panel h2 { font-size:14px; margin:0 0 8px; }
+table { border-collapse:collapse; width:100%; font-size:12px; } th, td { text-align:left; padding:4px 6px; border-bottom:1px solid var(--line); }
+tr.overdue td { color:#C62828; font-weight:600; }
+.note { color:var(--muted); font-size:11px; padding:0 16px 16px; }
+</style></head><body>
+<div class="top"><h1>SQDCP – Start of Shift</h1><span class="sub">Reviewing: Fri 23 Oct – Sun 25 Oct 2026</span>
+<span class="sub">All areas · All shifts</span><span class="sub" style="margin-left:auto">Mockup generated 26 Oct 21:47 from sample data</span></div>
+<div class="banner">
+  <div class="stat"><b>1</b><span>days since last accident</span></div>
+  <div class="stat"><b>7</b><span>open actions</span></div>
+  <div class="stat"><b>2</b><span>overdue actions</span></div>
+  <div class="stat"><b>1</b><span>customer visits next 7 days</span></div>
+</div>
+<div class="grid">
+    <section class="pillar">
+      <header style="background:#C62828"><span class="letter">S</span>
+        <span class="pname">Safety</span><span class="pstat">Red</span></header>
+      
+        <div class="tile" style="border-left-color:#C62828">
+          <div class="kname">Accidents</div>
+          <div class="kval">1</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 1</span>
+            <span class="arrow" style="color:#C62828" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#C62828">Red</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Incidents</div>
+          <div class="kval">0</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 2</span>
+            <span class="arrow" style="color:#C62828" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#1565C0">
+          <div class="kname">Near Misses</div>
+          <div class="kval">4</div>
+          <div class="kmeta"><span>track</span>
+            <span>MTD 38</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">↓</span></div>
+          <div class="chip" style="background:#1565C0">Info</div>
+        </div>
+        <div class="tile" style="border-left-color:#1565C0">
+          <div class="kname">Hazards Contained</div>
+          <div class="kval">6</div>
+          <div class="kmeta"><span>track</span>
+            <span>MTD 65</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#1565C0">Info</div>
+        </div>
+      <div class="calhead">October letter calendar</div>
+      <div class="cal"><div class="day" style="background:#2E7D32" title="Thu 01 Oct: Green">1</div><div class="day" style="background:#2E7D32" title="Fri 02 Oct: Green">2</div><div class="day" style="background:#2E7D32" title="Sat 03 Oct: Green">3</div><div class="day" style="background:#2E7D32" title="Sun 04 Oct: Green">4</div><div class="day" style="background:#2E7D32" title="Mon 05 Oct: Green">5</div><div class="day" style="background:#2E7D32" title="Tue 06 Oct: Green">6</div><div class="day" style="background:#2E7D32" title="Wed 07 Oct: Green">7</div><div class="day" style="background:#2E7D32" title="Thu 08 Oct: Green">8</div><div class="day" style="background:#2E7D32" title="Fri 09 Oct: Green">9</div><div class="day" style="background:#2E7D32" title="Sat 10 Oct: Green">10</div><div class="day" style="background:#2E7D32" title="Sun 11 Oct: Green">11</div><div class="day" style="background:#2E7D32" title="Mon 12 Oct: Green">12</div><div class="day" style="background:#2E7D32" title="Tue 13 Oct: Green">13</div><div class="day" style="background:#2E7D32" title="Wed 14 Oct: Green">14</div><div class="day" style="background:#2E7D32" title="Thu 15 Oct: Green">15</div><div class="day" style="background:#2E7D32" title="Fri 16 Oct: Green">16</div><div class="day" style="background:#2E7D32" title="Sat 17 Oct: Green">17</div><div class="day" style="background:#2E7D32" title="Sun 18 Oct: Green">18</div><div class="day" style="background:#C62828" title="Mon 19 Oct: Red">19</div><div class="day" style="background:#2E7D32" title="Tue 20 Oct: Green">20</div><div class="day" style="background:#C62828" title="Wed 21 Oct: Red">21</div><div class="day" style="background:#2E7D32" title="Thu 22 Oct: Green">22</div><div class="day" style="background:#2E7D32" title="Fri 23 Oct: Green">23</div><div class="day" style="background:#2E7D32" title="Sat 24 Oct: Green">24</div><div class="day" style="background:#C62828" title="Sun 25 Oct: Red">25</div><div class="day future" style="background:transparent" title="Mon 26 Oct: -">26</div><div class="day future" style="background:transparent" title="Tue 27 Oct: -">27</div><div class="day future" style="background:transparent" title="Wed 28 Oct: -">28</div><div class="day future" style="background:transparent" title="Thu 29 Oct: -">29</div><div class="day future" style="background:transparent" title="Fri 30 Oct: -">30</div><div class="day future" style="background:transparent" title="Sat 31 Oct: -">31</div></div>
+    </section>
+    <section class="pillar">
+      <header style="background:#C62828"><span class="letter">Q</span>
+        <span class="pname">Quality</span><span class="pstat">Red</span></header>
+      
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Product Safety Reports</div>
+          <div class="kval">0</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 0</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#C62828">
+          <div class="kname">Escapes</div>
+          <div class="kval">1</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 2</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#C62828">Red</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Concessions</div>
+          <div class="kval">0</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 6</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">NCRs</div>
+          <div class="kval">1</div>
+          <div class="kmeta"><span>≤ 1/day</span>
+            <span>MTD 29</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+      <div class="calhead">October letter calendar</div>
+      <div class="cal"><div class="day" style="background:#F9A825" title="Thu 01 Oct: Amber">1</div><div class="day" style="background:#2E7D32" title="Fri 02 Oct: Green">2</div><div class="day" style="background:#2E7D32" title="Sat 03 Oct: Green">3</div><div class="day" style="background:#2E7D32" title="Sun 04 Oct: Green">4</div><div class="day" style="background:#C62828" title="Mon 05 Oct: Red">5</div><div class="day" style="background:#2E7D32" title="Tue 06 Oct: Green">6</div><div class="day" style="background:#2E7D32" title="Wed 07 Oct: Green">7</div><div class="day" style="background:#C62828" title="Thu 08 Oct: Red">8</div><div class="day" style="background:#C62828" title="Fri 09 Oct: Red">9</div><div class="day" style="background:#2E7D32" title="Sat 10 Oct: Green">10</div><div class="day" style="background:#2E7D32" title="Sun 11 Oct: Green">11</div><div class="day" style="background:#F9A825" title="Mon 12 Oct: Amber">12</div><div class="day" style="background:#C62828" title="Tue 13 Oct: Red">13</div><div class="day" style="background:#C62828" title="Wed 14 Oct: Red">14</div><div class="day" style="background:#2E7D32" title="Thu 15 Oct: Green">15</div><div class="day" style="background:#F9A825" title="Fri 16 Oct: Amber">16</div><div class="day" style="background:#2E7D32" title="Sat 17 Oct: Green">17</div><div class="day" style="background:#2E7D32" title="Sun 18 Oct: Green">18</div><div class="day" style="background:#F9A825" title="Mon 19 Oct: Amber">19</div><div class="day" style="background:#2E7D32" title="Tue 20 Oct: Green">20</div><div class="day" style="background:#F9A825" title="Wed 21 Oct: Amber">21</div><div class="day" style="background:#C62828" title="Thu 22 Oct: Red">22</div><div class="day" style="background:#C62828" title="Fri 23 Oct: Red">23</div><div class="day" style="background:#2E7D32" title="Sat 24 Oct: Green">24</div><div class="day" style="background:#2E7D32" title="Sun 25 Oct: Green">25</div><div class="day future" style="background:transparent" title="Mon 26 Oct: -">26</div><div class="day future" style="background:transparent" title="Tue 27 Oct: -">27</div><div class="day future" style="background:transparent" title="Wed 28 Oct: -">28</div><div class="day future" style="background:transparent" title="Thu 29 Oct: -">29</div><div class="day future" style="background:transparent" title="Fri 30 Oct: -">30</div><div class="day future" style="background:transparent" title="Sat 31 Oct: -">31</div></div>
+    </section>
+    <section class="pillar">
+      <header style="background:#F9A825"><span class="letter">D</span>
+        <span class="pname">Delivery</span><span class="pstat">Amber</span></header>
+      
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">RFT Final</div>
+          <div class="kval">97%</div>
+          <div class="kmeta"><span>≥ 95%</span>
+            <span>MTD 98%</span>
+            <span class="arrow" style="color:#C62828" title="7 days vs previous 7">↓</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">RFT Verify</div>
+          <div class="kval">100%</div>
+          <div class="kmeta"><span>≥ 95%</span>
+            <span>MTD 97%</span>
+            <span class="arrow" style="color:#2E7D32" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">RFT System</div>
+          <div class="kval">97%</div>
+          <div class="kmeta"><span>≥ 95%</span>
+            <span>MTD 95%</span>
+            <span class="arrow" style="color:#2E7D32" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Thermal Deviations</div>
+          <div class="kval">0</div>
+          <div class="kmeta"><span>≤ 0/day</span>
+            <span>MTD 4</span>
+            <span class="arrow" style="color:#2E7D32" title="7 days vs previous 7">↓</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#F9A825">
+          <div class="kname">Stop Call Waits</div>
+          <div class="kval">94</div>
+          <div class="kmeta"><span>≤ 30/day</span>
+            <span>MTD 926</span>
+            <span class="arrow" style="color:#C62828" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#F9A825">Amber</div>
+        </div>
+      <div class="calhead">October letter calendar</div>
+      <div class="cal"><div class="day" style="background:#C62828" title="Thu 01 Oct: Red">1</div><div class="day" style="background:#F9A825" title="Fri 02 Oct: Amber">2</div><div class="day" style="background:#2E7D32" title="Sat 03 Oct: Green">3</div><div class="day" style="background:#2E7D32" title="Sun 04 Oct: Green">4</div><div class="day" style="background:#F9A825" title="Mon 05 Oct: Amber">5</div><div class="day" style="background:#F9A825" title="Tue 06 Oct: Amber">6</div><div class="day" style="background:#C62828" title="Wed 07 Oct: Red">7</div><div class="day" style="background:#F9A825" title="Thu 08 Oct: Amber">8</div><div class="day" style="background:#F9A825" title="Fri 09 Oct: Amber">9</div><div class="day" style="background:#2E7D32" title="Sat 10 Oct: Green">10</div><div class="day" style="background:#2E7D32" title="Sun 11 Oct: Green">11</div><div class="day" style="background:#C62828" title="Mon 12 Oct: Red">12</div><div class="day" style="background:#C62828" title="Tue 13 Oct: Red">13</div><div class="day" style="background:#F9A825" title="Wed 14 Oct: Amber">14</div><div class="day" style="background:#C62828" title="Thu 15 Oct: Red">15</div><div class="day" style="background:#F9A825" title="Fri 16 Oct: Amber">16</div><div class="day" style="background:#2E7D32" title="Sat 17 Oct: Green">17</div><div class="day" style="background:#2E7D32" title="Sun 18 Oct: Green">18</div><div class="day" style="background:#C62828" title="Mon 19 Oct: Red">19</div><div class="day" style="background:#C62828" title="Tue 20 Oct: Red">20</div><div class="day" style="background:#C62828" title="Wed 21 Oct: Red">21</div><div class="day" style="background:#C62828" title="Thu 22 Oct: Red">22</div><div class="day" style="background:#C62828" title="Fri 23 Oct: Red">23</div><div class="day" style="background:#2E7D32" title="Sat 24 Oct: Green">24</div><div class="day" style="background:#2E7D32" title="Sun 25 Oct: Green">25</div><div class="day future" style="background:transparent" title="Mon 26 Oct: -">26</div><div class="day future" style="background:transparent" title="Tue 27 Oct: -">27</div><div class="day future" style="background:transparent" title="Wed 28 Oct: -">28</div><div class="day future" style="background:transparent" title="Thu 29 Oct: -">29</div><div class="day future" style="background:transparent" title="Fri 30 Oct: -">30</div><div class="day future" style="background:transparent" title="Sat 31 Oct: -">31</div></div>
+    </section>
+    <section class="pillar">
+      <header style="background:#2E7D32"><span class="letter">C</span>
+        <span class="pname">Cost</span><span class="pstat">Green</span></header>
+      
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Scrap</div>
+          <div class="kval">£1,429</div>
+          <div class="kmeta"><span>≤ £500/day</span>
+            <span>MTD £18,557</span>
+            <span class="arrow" style="color:#C62828" title="7 days vs previous 7">↑</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+        <div class="tile" style="border-left-color:#2E7D32">
+          <div class="kname">Rework</div>
+          <div class="kval">15.5</div>
+          <div class="kmeta"><span>≤ 8.0/day</span>
+            <span>MTD 200.5</span>
+            <span class="arrow" style="color:#2E7D32" title="7 days vs previous 7">↓</span></div>
+          <div class="chip" style="background:#2E7D32">Green</div>
+        </div>
+      <div class="calhead">October letter calendar</div>
+      <div class="cal"><div class="day" style="background:#C62828" title="Thu 01 Oct: Red">1</div><div class="day" style="background:#C62828" title="Fri 02 Oct: Red">2</div><div class="day" style="background:#2E7D32" title="Sat 03 Oct: Green">3</div><div class="day" style="background:#2E7D32" title="Sun 04 Oct: Green">4</div><div class="day" style="background:#C62828" title="Mon 05 Oct: Red">5</div><div class="day" style="background:#C62828" title="Tue 06 Oct: Red">6</div><div class="day" style="background:#C62828" title="Wed 07 Oct: Red">7</div><div class="day" style="background:#C62828" title="Thu 08 Oct: Red">8</div><div class="day" style="background:#C62828" title="Fri 09 Oct: Red">9</div><div class="day" style="background:#2E7D32" title="Sat 10 Oct: Green">10</div><div class="day" style="background:#2E7D32" title="Sun 11 Oct: Green">11</div><div class="day" style="background:#F9A825" title="Mon 12 Oct: Amber">12</div><div class="day" style="background:#C62828" title="Tue 13 Oct: Red">13</div><div class="day" style="background:#C62828" title="Wed 14 Oct: Red">14</div><div class="day" style="background:#C62828" title="Thu 15 Oct: Red">15</div><div class="day" style="background:#C62828" title="Fri 16 Oct: Red">16</div><div class="day" style="background:#2E7D32" title="Sat 17 Oct: Green">17</div><div class="day" style="background:#2E7D32" title="Sun 18 Oct: Green">18</div><div class="day" style="background:#C62828" title="Mon 19 Oct: Red">19</div><div class="day" style="background:#F9A825" title="Tue 20 Oct: Amber">20</div><div class="day" style="background:#C62828" title="Wed 21 Oct: Red">21</div><div class="day" style="background:#C62828" title="Thu 22 Oct: Red">22</div><div class="day" style="background:#C62828" title="Fri 23 Oct: Red">23</div><div class="day" style="background:#2E7D32" title="Sat 24 Oct: Green">24</div><div class="day" style="background:#2E7D32" title="Sun 25 Oct: Green">25</div><div class="day future" style="background:transparent" title="Mon 26 Oct: -">26</div><div class="day future" style="background:transparent" title="Tue 27 Oct: -">27</div><div class="day future" style="background:transparent" title="Wed 28 Oct: -">28</div><div class="day future" style="background:transparent" title="Thu 29 Oct: -">29</div><div class="day future" style="background:transparent" title="Fri 30 Oct: -">30</div><div class="day future" style="background:transparent" title="Sat 31 Oct: -">31</div></div>
+    </section>
+    <section class="pillar">
+      <header style="background:#1565C0"><span class="letter">P</span>
+        <span class="pname">People</span><span class="pstat">Info</span></header>
+      
+        <div class="tile" style="border-left-color:#1565C0">
+          <div class="kname">Customer Visits</div>
+          <div class="kval">0</div>
+          <div class="kmeta"><span>track</span>
+            <span>MTD 3</span>
+            <span class="arrow" style="color:#616161" title="7 days vs previous 7">→</span></div>
+          <div class="chip" style="background:#1565C0">Info</div>
+        </div>
+      <div class="calhead">October letter calendar</div>
+      <div class="cal"><div class="day" style="background:#1565C0" title="Thu 01 Oct: Info">1</div><div class="day" style="background:#1565C0" title="Fri 02 Oct: Info">2</div><div class="day" style="background:#1565C0" title="Sat 03 Oct: Info">3</div><div class="day" style="background:#1565C0" title="Sun 04 Oct: Info">4</div><div class="day" style="background:#1565C0" title="Mon 05 Oct: Info">5</div><div class="day" style="background:#1565C0" title="Tue 06 Oct: Info">6</div><div class="day" style="background:#1565C0" title="Wed 07 Oct: Info">7</div><div class="day" style="background:#1565C0" title="Thu 08 Oct: Info">8</div><div class="day" style="background:#1565C0" title="Fri 09 Oct: Info">9</div><div class="day" style="background:#1565C0" title="Sat 10 Oct: Info">10</div><div class="day" style="background:#1565C0" title="Sun 11 Oct: Info">11</div><div class="day" style="background:#1565C0" title="Mon 12 Oct: Info">12</div><div class="day" style="background:#1565C0" title="Tue 13 Oct: Info">13</div><div class="day" style="background:#1565C0" title="Wed 14 Oct: Info">14</div><div class="day" style="background:#1565C0" title="Thu 15 Oct: Info">15</div><div class="day" style="background:#1565C0" title="Fri 16 Oct: Info">16</div><div class="day" style="background:#1565C0" title="Sat 17 Oct: Info">17</div><div class="day" style="background:#1565C0" title="Sun 18 Oct: Info">18</div><div class="day" style="background:#1565C0" title="Mon 19 Oct: Info">19</div><div class="day" style="background:#1565C0" title="Tue 20 Oct: Info">20</div><div class="day" style="background:#1565C0" title="Wed 21 Oct: Info">21</div><div class="day" style="background:#1565C0" title="Thu 22 Oct: Info">22</div><div class="day" style="background:#1565C0" title="Fri 23 Oct: Info">23</div><div class="day" style="background:#1565C0" title="Sat 24 Oct: Info">24</div><div class="day" style="background:#1565C0" title="Sun 25 Oct: Info">25</div><div class="day future" style="background:transparent" title="Mon 26 Oct: -">26</div><div class="day future" style="background:transparent" title="Tue 27 Oct: -">27</div><div class="day future" style="background:transparent" title="Wed 28 Oct: -">28</div><div class="day future" style="background:transparent" title="Thu 29 Oct: -">29</div><div class="day future" style="background:transparent" title="Fri 30 Oct: -">30</div><div class="day future" style="background:transparent" title="Sat 31 Oct: -">31</div></div>
+    </section></div>
+<div class="lower">
+  <div class="panel"><h2>Open actions (Tier 1)</h2><table><thead><tr><th>ID</th><th>Pillar</th><th>Area</th><th>Issue</th><th>Countermeasure</th><th>Owner</th><th>Due</th><th>Status</th></tr></thead><tbody><tr class=''><td>ACT-001</td><td>Safety</td><td>Assembly</td><td>Repeat oil spills at Machining cell 3</td><td>Fit drip tray and add to TPM check</td><td>M.Jones</td><td>2026-10-29</td><td>Open</td></tr><tr class=''><td>ACT-002</td><td>Quality</td><td>Heat Treat</td><td>Escape: missing fastener at customer</td><td>Add torque-count poka-yoke at ST-07</td><td>J.Smith</td><td>2026-10-28</td><td>In Progress</td></tr><tr class=''><td>ACT-003</td><td>Delivery</td><td>Machining</td><td>RFT System below target 3 days</td><td>Fixture calibration and 5-why on top failure mode</td><td>K.Lee</td><td>2026-11-02</td><td>Open</td></tr><tr class='overdue'><td>ACT-004</td><td>Delivery</td><td>Test</td><td>Night shift stop call waits &gt;20 min</td><td>Add team leader rota for night andon response</td><td>J.Smith</td><td>2026-10-21</td><td>In Progress</td></tr><tr class=''><td>ACT-006</td><td>People</td><td>Assembly</td><td>Customer A source inspection Thursday</td><td>5S audit of Test area Wednesday PM</td><td>J.Smith</td><td>2026-10-27</td><td>In Progress</td></tr><tr class=''><td>ACT-007</td><td>Quality</td><td>Assembly</td><td>Concession trend on hardness</td><td>Review furnace FURN-02 profile with Process Eng</td><td>K.Lee</td><td>2026-10-27</td><td>In Progress</td></tr><tr class='overdue'><td>ACT-008</td><td>Safety</td><td>Test</td><td>Near miss: load swung near operator</td><td>Re-brief lifting plan; exclusion zone marking</td><td>M.Jones</td><td>2026-10-22</td><td>Open</td></tr></tbody></table></div>
+  <div class="panel"><h2>Coming to site</h2><ul><li><b>2026-10-29</b> Customer C – First article (Machining)</li></ul></div>
+</div>
+<div class="note">Layout mockup of Page 1 of the Power BI report. Tile border = status vs target for the review period; arrow = last 7 days vs previous 7 (green = improving).
+Calendar cells = worst KPI status in the pillar for each day. Blue = tracked, no target (leading indicators).</div>
+</body></html>

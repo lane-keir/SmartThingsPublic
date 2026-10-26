@@ -1,0 +1,283 @@
+EventID,EventDateTime,Area,EventType,Status,ContainedDateTime,Description,ReportedBy
+EHS-1000,2026-08-27 07:54,Machining,Incident,Closed,,"Minor cut, first aid given",J.Smith
+EHS-1001,2026-08-27 06:15,Machining,Hazard,Contained,2026-08-27 08:24,Frayed sling,J.Smith
+EHS-1002,2026-08-27 08:22,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1003,2026-08-27 12:30,Heat Treat,Hazard,Contained,2026-08-27 13:27,Blocked fire exit,J.Smith
+EHS-1004,2026-08-27 15:03,Assembly,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1005,2026-08-28 07:59,Machining,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1006,2026-08-28 09:09,Machining,Hazard,Contained,2026-08-28 11:35,Oil spill at machine,A.Patel
+EHS-1007,2026-08-29 03:52,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1008,2026-08-28 08:17,Assembly,Incident,Closed,,"Minor cut, first aid given",A.Patel
+EHS-1009,2026-08-28 07:11,Test,Hazard,Contained,2026-08-28 12:08,Frayed sling,M.Jones
+EHS-1010,2026-08-31 04:24,Machining,Hazard,Contained,2026-08-31 07:28,Oil spill at machine,M.Jones
+EHS-1011,2026-08-30 18:36,Test,Hazard,Open,,Frayed sling,J.Smith
+EHS-1012,2026-09-01 04:53,Machining,Near Miss,Closed,,Trailing cable at cell 4,A.Patel
+EHS-1013,2026-08-31 22:40,Machining,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1014,2026-09-02 01:51,Machining,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1015,2026-09-01 11:01,Machining,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1016,2026-09-01 14:30,Machining,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1017,2026-09-01 13:58,Heat Treat,Hazard,Open,,Frayed sling,K.Lee
+EHS-1018,2026-09-01 17:28,Heat Treat,Hazard,Contained,2026-09-01 18:27,Blocked fire exit,M.Jones
+EHS-1019,2026-09-02 00:07,Test,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1020,2026-09-01 09:56,Test,Hazard,Contained,2026-09-01 10:44,Blocked fire exit,J.Smith
+EHS-1021,2026-09-02 05:08,Test,Hazard,Contained,2026-09-02 06:05,Damaged pallet in aisle,A.Patel
+EHS-1022,2026-09-02 09:19,Machining,Hazard,Contained,2026-09-02 13:21,Missing floor marking,K.Lee
+EHS-1023,2026-09-02 07:51,Heat Treat,Hazard,Open,,Frayed sling,J.Smith
+EHS-1024,2026-09-02 11:04,Test,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1025,2026-09-03 11:36,Machining,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1026,2026-09-03 16:02,Machining,Near Miss,Closed,,Trailing cable at cell 4,K.Lee
+EHS-1027,2026-09-03 21:55,Machining,Hazard,Contained,2026-09-03 22:42,Oil spill at machine,K.Lee
+EHS-1028,2026-09-03 08:58,Heat Treat,Hazard,Open,,Damaged pallet in aisle,M.Jones
+EHS-1029,2026-09-03 10:38,Heat Treat,Hazard,Contained,2026-09-03 15:18,Oil spill at machine,M.Jones
+EHS-1030,2026-09-04 04:20,Assembly,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1031,2026-09-03 11:51,Assembly,Hazard,Contained,2026-09-03 14:16,Frayed sling,K.Lee
+EHS-1032,2026-09-03 22:26,Assembly,Hazard,Contained,2026-09-04 02:12,Missing floor marking,J.Smith
+EHS-1033,2026-09-03 19:26,Assembly,Hazard,Open,,Damaged pallet in aisle,K.Lee
+EHS-1034,2026-09-03 13:32,Test,Incident,Closed,,"Coolant splash to eye, rinsed",A.Patel
+EHS-1035,2026-09-03 07:05,Test,Hazard,Contained,2026-09-03 10:21,Oil spill at machine,M.Jones
+EHS-1036,2026-09-03 06:52,Test,Hazard,Contained,2026-09-03 11:48,Blocked fire exit,A.Patel
+EHS-1037,2026-09-04 07:31,Machining,Hazard,Contained,2026-09-04 10:31,Blocked fire exit,A.Patel
+EHS-1038,2026-09-04 14:55,Machining,Hazard,Contained,2026-09-04 15:24,Blocked fire exit,A.Patel
+EHS-1039,2026-09-04 06:35,Assembly,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1040,2026-09-05 02:34,Assembly,Hazard,Contained,2026-09-05 02:58,Oil spill at machine,M.Jones
+EHS-1041,2026-09-05 00:15,Assembly,Hazard,Contained,2026-09-05 04:07,Missing floor marking,M.Jones
+EHS-1042,2026-09-04 09:43,Test,Hazard,Contained,2026-09-04 14:28,Damaged pallet in aisle,M.Jones
+EHS-1043,2026-09-05 17:14,Assembly,Hazard,Contained,2026-09-05 18:53,Frayed sling,M.Jones
+EHS-1044,2026-09-08 03:12,Machining,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1045,2026-09-07 11:56,Machining,Hazard,Contained,2026-09-07 15:30,Damaged pallet in aisle,A.Patel
+EHS-1046,2026-09-07 20:34,Heat Treat,Accident,Closed,,Hand laceration on swarf - lost time,K.Lee
+EHS-1047,2026-09-07 21:49,Heat Treat,Hazard,Contained,2026-09-08 01:52,Damaged pallet in aisle,K.Lee
+EHS-1048,2026-09-08 08:06,Machining,Hazard,Contained,2026-09-08 10:37,Frayed sling,K.Lee
+EHS-1049,2026-09-08 08:43,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1050,2026-09-08 07:18,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1051,2026-09-08 14:31,Heat Treat,Hazard,Contained,2026-09-08 18:16,Blocked fire exit,J.Smith
+EHS-1052,2026-09-08 12:25,Assembly,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1053,2026-09-08 17:19,Test,Hazard,Contained,2026-09-08 20:56,Damaged pallet in aisle,K.Lee
+EHS-1054,2026-09-09 14:42,Machining,Hazard,Contained,2026-09-09 16:01,Blocked fire exit,A.Patel
+EHS-1055,2026-09-09 07:48,Machining,Hazard,Contained,2026-09-09 10:50,Blocked fire exit,M.Jones
+EHS-1056,2026-09-09 10:36,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,M.Jones
+EHS-1057,2026-09-09 11:33,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1058,2026-09-09 07:18,Heat Treat,Hazard,Contained,2026-09-09 11:30,Oil spill at machine,A.Patel
+EHS-1059,2026-09-09 10:56,Test,Near Miss,Closed,,Pallet overhanging walkway,M.Jones
+EHS-1060,2026-09-10 21:05,Machining,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1061,2026-09-10 20:52,Machining,Hazard,Contained,2026-09-11 01:51,Oil spill at machine,M.Jones
+EHS-1062,2026-09-10 10:10,Heat Treat,Hazard,Contained,2026-09-10 13:25,Blocked fire exit,A.Patel
+EHS-1063,2026-09-10 18:35,Assembly,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1064,2026-09-11 00:04,Test,Hazard,Contained,2026-09-11 03:28,Missing floor marking,J.Smith
+EHS-1065,2026-09-11 08:23,Machining,Near Miss,Closed,,Trailing cable at cell 4,J.Smith
+EHS-1066,2026-09-11 09:28,Machining,Hazard,Contained,2026-09-11 11:41,Blocked fire exit,K.Lee
+EHS-1067,2026-09-11 11:39,Heat Treat,Near Miss,Closed,,Trailing cable at cell 4,K.Lee
+EHS-1068,2026-09-12 02:41,Heat Treat,Hazard,Contained,2026-09-12 06:43,Missing floor marking,M.Jones
+EHS-1069,2026-09-11 07:38,Heat Treat,Hazard,Contained,2026-09-11 12:22,Damaged pallet in aisle,A.Patel
+EHS-1070,2026-09-11 06:51,Assembly,Hazard,Contained,2026-09-11 09:32,Damaged pallet in aisle,M.Jones
+EHS-1071,2026-09-11 10:33,Assembly,Hazard,Contained,2026-09-11 11:06,Oil spill at machine,M.Jones
+EHS-1072,2026-09-12 13:21,Machining,Hazard,Contained,2026-09-12 14:04,Blocked fire exit,K.Lee
+EHS-1073,2026-09-12 14:27,Machining,Hazard,Contained,2026-09-12 19:25,Missing floor marking,J.Smith
+EHS-1074,2026-09-13 11:38,Machining,Hazard,Contained,2026-09-13 13:50,Damaged pallet in aisle,J.Smith
+EHS-1075,2026-09-13 08:24,Heat Treat,Hazard,Contained,2026-09-13 12:26,Oil spill at machine,A.Patel
+EHS-1076,2026-09-14 12:23,Machining,Near Miss,Closed,,Trailing cable at cell 4,K.Lee
+EHS-1077,2026-09-14 19:58,Machining,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1078,2026-09-14 06:20,Machining,Hazard,Open,,Missing floor marking,M.Jones
+EHS-1079,2026-09-14 11:45,Machining,Hazard,Contained,2026-09-14 12:05,Missing floor marking,J.Smith
+EHS-1080,2026-09-14 10:59,Heat Treat,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1081,2026-09-14 08:44,Heat Treat,Hazard,Contained,2026-09-14 10:16,Missing floor marking,K.Lee
+EHS-1082,2026-09-14 16:41,Assembly,Hazard,Contained,2026-09-14 17:50,Blocked fire exit,J.Smith
+EHS-1083,2026-09-14 12:27,Test,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1084,2026-09-14 21:54,Test,Hazard,Contained,2026-09-15 02:12,Oil spill at machine,J.Smith
+EHS-1085,2026-09-15 18:42,Machining,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1086,2026-09-15 22:58,Machining,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1087,2026-09-16 00:29,Machining,Hazard,Contained,2026-09-16 02:58,Blocked fire exit,K.Lee
+EHS-1088,2026-09-16 02:20,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1089,2026-09-16 18:38,Machining,Hazard,Contained,2026-09-16 21:32,Damaged pallet in aisle,A.Patel
+EHS-1090,2026-09-16 20:01,Heat Treat,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1091,2026-09-17 00:49,Assembly,Hazard,Open,,Blocked fire exit,J.Smith
+EHS-1092,2026-09-16 15:19,Test,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1093,2026-09-16 17:23,Test,Hazard,Contained,2026-09-16 20:21,Frayed sling,K.Lee
+EHS-1094,2026-09-17 16:00,Machining,Hazard,Contained,2026-09-17 18:37,Damaged pallet in aisle,J.Smith
+EHS-1095,2026-09-17 21:42,Heat Treat,Hazard,Contained,2026-09-18 00:38,Oil spill at machine,M.Jones
+EHS-1096,2026-09-17 15:32,Assembly,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1097,2026-09-18 03:17,Assembly,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1098,2026-09-17 16:10,Assembly,Hazard,Contained,2026-09-17 16:24,Blocked fire exit,M.Jones
+EHS-1099,2026-09-17 19:27,Test,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1100,2026-09-18 05:16,Test,Hazard,Contained,2026-09-18 07:27,Blocked fire exit,M.Jones
+EHS-1101,2026-09-18 10:49,Machining,Hazard,Open,,Oil spill at machine,K.Lee
+EHS-1102,2026-09-18 15:52,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1103,2026-09-18 20:14,Test,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1104,2026-09-18 07:42,Test,Hazard,Contained,2026-09-18 12:28,Missing floor marking,M.Jones
+EHS-1105,2026-09-19 23:12,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1106,2026-09-19 17:52,Assembly,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1107,2026-09-20 02:47,Test,Hazard,Contained,2026-09-20 04:50,Oil spill at machine,K.Lee
+EHS-1108,2026-09-20 23:09,Heat Treat,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1109,2026-09-21 08:00,Machining,Hazard,Open,,Oil spill at machine,M.Jones
+EHS-1110,2026-09-21 07:02,Heat Treat,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1111,2026-09-21 14:10,Heat Treat,Hazard,Contained,2026-09-21 17:10,Damaged pallet in aisle,A.Patel
+EHS-1112,2026-09-21 15:59,Assembly,Hazard,Contained,2026-09-21 17:24,Frayed sling,J.Smith
+EHS-1113,2026-09-21 23:06,Assembly,Hazard,Contained,2026-09-22 00:45,Oil spill at machine,J.Smith
+EHS-1114,2026-09-21 12:43,Assembly,Hazard,Contained,2026-09-21 15:38,Oil spill at machine,A.Patel
+EHS-1115,2026-09-21 09:49,Test,Near Miss,Closed,,Trailing cable at cell 4,J.Smith
+EHS-1116,2026-09-21 20:12,Test,Hazard,Contained,2026-09-22 00:48,Missing floor marking,K.Lee
+EHS-1117,2026-09-22 12:04,Machining,Hazard,Open,,Oil spill at machine,J.Smith
+EHS-1118,2026-09-22 07:04,Machining,Hazard,Contained,2026-09-22 11:54,Missing floor marking,K.Lee
+EHS-1119,2026-09-22 21:16,Heat Treat,Hazard,Contained,2026-09-23 02:08,Damaged pallet in aisle,K.Lee
+EHS-1120,2026-09-22 09:38,Assembly,Hazard,Contained,2026-09-22 11:58,Missing floor marking,A.Patel
+EHS-1121,2026-09-22 12:21,Test,Near Miss,Closed,,Trailing cable at cell 4,A.Patel
+EHS-1122,2026-09-22 16:48,Test,Hazard,Contained,2026-09-22 20:28,Missing floor marking,K.Lee
+EHS-1123,2026-09-23 15:48,Machining,Hazard,Contained,2026-09-23 20:04,Damaged pallet in aisle,J.Smith
+EHS-1124,2026-09-23 09:39,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,M.Jones
+EHS-1125,2026-09-23 12:30,Heat Treat,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1126,2026-09-23 11:36,Heat Treat,Hazard,Contained,2026-09-23 12:58,Oil spill at machine,J.Smith
+EHS-1127,2026-09-23 12:09,Assembly,Near Miss,Closed,,Trailing cable at cell 4,J.Smith
+EHS-1128,2026-09-23 14:25,Assembly,Hazard,Contained,2026-09-23 16:54,Blocked fire exit,K.Lee
+EHS-1129,2026-09-23 08:25,Test,Hazard,Contained,2026-09-23 12:44,Frayed sling,M.Jones
+EHS-1130,2026-09-23 11:06,Test,Hazard,Contained,2026-09-23 13:00,Missing floor marking,A.Patel
+EHS-1131,2026-09-24 17:40,Machining,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1132,2026-09-24 22:21,Heat Treat,Hazard,Contained,2026-09-25 02:26,Oil spill at machine,M.Jones
+EHS-1133,2026-09-24 06:10,Assembly,Near Miss,Closed,,Trailing cable at cell 4,A.Patel
+EHS-1134,2026-09-25 05:50,Assembly,Hazard,Contained,2026-09-25 09:43,Oil spill at machine,A.Patel
+EHS-1135,2026-09-25 18:31,Machining,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1136,2026-09-25 07:28,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1137,2026-09-25 18:12,Heat Treat,Near Miss,Closed,,Load swung near operator,K.Lee
+EHS-1138,2026-09-26 00:41,Assembly,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1139,2026-09-25 08:35,Assembly,Near Miss,Closed,,Trailing cable at cell 4,J.Smith
+EHS-1140,2026-09-25 14:19,Assembly,Hazard,Contained,2026-09-25 16:55,Oil spill at machine,J.Smith
+EHS-1141,2026-09-26 13:40,Heat Treat,Hazard,Contained,2026-09-26 14:33,Frayed sling,A.Patel
+EHS-1142,2026-09-26 17:44,Heat Treat,Hazard,Contained,2026-09-26 19:15,Missing floor marking,M.Jones
+EHS-1143,2026-09-26 16:51,Assembly,Hazard,Contained,2026-09-26 17:49,Frayed sling,K.Lee
+EHS-1144,2026-09-28 09:05,Machining,Hazard,Contained,2026-09-28 11:04,Missing floor marking,K.Lee
+EHS-1145,2026-09-28 23:19,Machining,Hazard,Contained,2026-09-29 00:20,Frayed sling,J.Smith
+EHS-1146,2026-09-28 11:54,Heat Treat,Hazard,Contained,2026-09-28 13:28,Blocked fire exit,J.Smith
+EHS-1147,2026-09-28 12:23,Assembly,Near Miss,Closed,,Load swung near operator,A.Patel
+EHS-1148,2026-09-28 18:00,Assembly,Hazard,Open,,Damaged pallet in aisle,M.Jones
+EHS-1149,2026-09-29 11:09,Machining,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1150,2026-09-29 17:10,Machining,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1151,2026-09-29 13:46,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1152,2026-09-29 06:41,Assembly,Near Miss,Closed,,Trailing cable at cell 4,A.Patel
+EHS-1153,2026-09-30 05:09,Assembly,Near Miss,Closed,,Trailing cable at cell 4,A.Patel
+EHS-1154,2026-09-30 03:56,Assembly,Hazard,Contained,2026-09-30 08:06,Blocked fire exit,J.Smith
+EHS-1155,2026-09-30 03:11,Test,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1156,2026-09-29 08:02,Test,Hazard,Contained,2026-09-29 12:06,Oil spill at machine,J.Smith
+EHS-1157,2026-09-30 16:29,Machining,Hazard,Contained,2026-09-30 19:39,Damaged pallet in aisle,K.Lee
+EHS-1158,2026-09-30 18:28,Machining,Hazard,Open,,Oil spill at machine,J.Smith
+EHS-1159,2026-09-30 12:43,Heat Treat,Hazard,Contained,2026-09-30 14:56,Oil spill at machine,M.Jones
+EHS-1160,2026-09-30 08:53,Heat Treat,Hazard,Contained,2026-09-30 10:32,Blocked fire exit,K.Lee
+EHS-1161,2026-09-30 06:22,Assembly,Hazard,Contained,2026-09-30 06:53,Missing floor marking,M.Jones
+EHS-1162,2026-09-30 15:37,Test,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1163,2026-09-30 16:19,Test,Hazard,Contained,2026-09-30 19:37,Blocked fire exit,K.Lee
+EHS-1164,2026-10-01 21:53,Machining,Hazard,Contained,2026-10-02 00:19,Oil spill at machine,K.Lee
+EHS-1165,2026-10-01 21:01,Machining,Hazard,Contained,2026-10-01 23:41,Missing floor marking,J.Smith
+EHS-1166,2026-10-01 16:36,Machining,Hazard,Contained,2026-10-01 20:24,Damaged pallet in aisle,K.Lee
+EHS-1167,2026-10-02 00:20,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1168,2026-10-01 20:23,Heat Treat,Hazard,Contained,2026-10-01 20:48,Damaged pallet in aisle,K.Lee
+EHS-1169,2026-10-01 12:38,Heat Treat,Hazard,Contained,2026-10-01 15:53,Blocked fire exit,J.Smith
+EHS-1170,2026-10-01 18:53,Assembly,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1171,2026-10-01 06:58,Assembly,Hazard,Contained,2026-10-01 08:43,Blocked fire exit,K.Lee
+EHS-1172,2026-10-01 19:55,Test,Hazard,Open,,Blocked fire exit,A.Patel
+EHS-1173,2026-10-02 01:51,Test,Hazard,Contained,2026-10-02 05:48,Oil spill at machine,M.Jones
+EHS-1174,2026-10-02 07:20,Machining,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1175,2026-10-02 07:11,Machining,Hazard,Contained,2026-10-02 11:33,Oil spill at machine,M.Jones
+EHS-1176,2026-10-02 08:38,Heat Treat,Hazard,Contained,2026-10-02 12:53,Frayed sling,K.Lee
+EHS-1177,2026-10-02 11:48,Assembly,Hazard,Contained,2026-10-02 13:03,Frayed sling,A.Patel
+EHS-1178,2026-10-03 19:03,Test,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1179,2026-10-05 06:30,Machining,Hazard,Contained,2026-10-05 10:12,Blocked fire exit,K.Lee
+EHS-1180,2026-10-05 16:40,Machining,Hazard,Open,,Missing floor marking,M.Jones
+EHS-1181,2026-10-05 16:16,Heat Treat,Hazard,Contained,2026-10-05 17:38,Oil spill at machine,J.Smith
+EHS-1182,2026-10-05 11:15,Heat Treat,Hazard,Contained,2026-10-05 12:46,Missing floor marking,M.Jones
+EHS-1183,2026-10-05 16:03,Test,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1184,2026-10-05 11:05,Test,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1185,2026-10-06 14:37,Heat Treat,Hazard,Contained,2026-10-06 18:37,Frayed sling,M.Jones
+EHS-1186,2026-10-06 09:11,Assembly,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1187,2026-10-06 18:16,Assembly,Hazard,Contained,2026-10-06 18:45,Damaged pallet in aisle,M.Jones
+EHS-1188,2026-10-07 00:43,Test,Hazard,Contained,2026-10-07 03:26,Frayed sling,M.Jones
+EHS-1189,2026-10-07 08:49,Machining,Hazard,Contained,2026-10-07 12:32,Frayed sling,M.Jones
+EHS-1190,2026-10-07 19:35,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1191,2026-10-07 19:17,Heat Treat,Hazard,Contained,2026-10-07 22:41,Damaged pallet in aisle,A.Patel
+EHS-1192,2026-10-07 22:56,Heat Treat,Hazard,Contained,2026-10-08 02:51,Missing floor marking,K.Lee
+EHS-1193,2026-10-07 17:30,Heat Treat,Hazard,Contained,2026-10-07 21:41,Oil spill at machine,A.Patel
+EHS-1194,2026-10-08 01:55,Assembly,Hazard,Open,,Missing floor marking,M.Jones
+EHS-1195,2026-10-07 16:06,Test,Hazard,Contained,2026-10-07 18:48,Damaged pallet in aisle,M.Jones
+EHS-1196,2026-10-08 21:58,Machining,Hazard,Contained,2026-10-09 00:28,Missing floor marking,J.Smith
+EHS-1197,2026-10-08 12:35,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1198,2026-10-08 22:40,Heat Treat,Near Miss,Closed,,Trailing cable at cell 4,K.Lee
+EHS-1199,2026-10-08 16:19,Assembly,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1200,2026-10-08 11:42,Assembly,Hazard,Open,,Damaged pallet in aisle,A.Patel
+EHS-1201,2026-10-08 12:07,Assembly,Hazard,Contained,2026-10-08 13:27,Oil spill at machine,A.Patel
+EHS-1202,2026-10-09 00:44,Test,Hazard,Contained,2026-10-09 01:24,Oil spill at machine,A.Patel
+EHS-1203,2026-10-09 23:30,Machining,Hazard,Open,,Oil spill at machine,K.Lee
+EHS-1204,2026-10-09 08:32,Heat Treat,Hazard,Contained,2026-10-09 09:36,Missing floor marking,M.Jones
+EHS-1205,2026-10-09 16:19,Assembly,Hazard,Contained,2026-10-09 17:26,Missing floor marking,A.Patel
+EHS-1206,2026-10-09 08:31,Test,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1207,2026-10-09 09:38,Test,Hazard,Contained,2026-10-09 10:32,Blocked fire exit,J.Smith
+EHS-1208,2026-10-09 08:45,Test,Hazard,Open,,Oil spill at machine,M.Jones
+EHS-1209,2026-10-12 13:49,Machining,Hazard,Contained,2026-10-12 14:30,Frayed sling,A.Patel
+EHS-1210,2026-10-12 10:58,Heat Treat,Hazard,Contained,2026-10-12 15:29,Blocked fire exit,J.Smith
+EHS-1211,2026-10-12 20:53,Assembly,Near Miss,Closed,,Trailing cable at cell 4,J.Smith
+EHS-1212,2026-10-12 06:32,Test,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1213,2026-10-12 07:32,Test,Hazard,Contained,2026-10-12 11:17,Missing floor marking,K.Lee
+EHS-1214,2026-10-14 05:27,Machining,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1215,2026-10-14 01:21,Machining,Near Miss,Closed,,Guard interlock bypass found,A.Patel
+EHS-1216,2026-10-13 07:57,Heat Treat,Hazard,Contained,2026-10-13 11:04,Damaged pallet in aisle,M.Jones
+EHS-1217,2026-10-14 04:31,Heat Treat,Hazard,Contained,2026-10-14 08:15,Frayed sling,J.Smith
+EHS-1218,2026-10-13 21:26,Assembly,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1219,2026-10-13 07:51,Assembly,Hazard,Contained,2026-10-13 08:29,Damaged pallet in aisle,M.Jones
+EHS-1220,2026-10-14 02:54,Assembly,Hazard,Contained,2026-10-14 05:48,Damaged pallet in aisle,M.Jones
+EHS-1221,2026-10-13 10:45,Test,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1222,2026-10-13 11:29,Test,Hazard,Contained,2026-10-13 16:07,Missing floor marking,K.Lee
+EHS-1223,2026-10-14 13:19,Machining,Hazard,Contained,2026-10-14 17:26,Oil spill at machine,K.Lee
+EHS-1224,2026-10-14 11:31,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1225,2026-10-14 15:37,Heat Treat,Hazard,Contained,2026-10-14 19:00,Frayed sling,J.Smith
+EHS-1226,2026-10-14 21:25,Assembly,Hazard,Open,,Missing floor marking,J.Smith
+EHS-1227,2026-10-14 12:19,Assembly,Hazard,Contained,2026-10-14 16:34,Damaged pallet in aisle,A.Patel
+EHS-1228,2026-10-14 19:32,Test,Near Miss,Closed,,Trailing cable at cell 4,M.Jones
+EHS-1229,2026-10-14 14:50,Test,Hazard,Contained,2026-10-14 19:00,Missing floor marking,A.Patel
+EHS-1230,2026-10-15 08:13,Machining,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1231,2026-10-15 09:14,Machining,Near Miss,Closed,,Guard interlock bypass found,K.Lee
+EHS-1232,2026-10-15 10:39,Assembly,Hazard,Contained,2026-10-15 15:26,Oil spill at machine,J.Smith
+EHS-1233,2026-10-15 07:10,Test,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1234,2026-10-15 17:11,Test,Hazard,Contained,2026-10-15 21:28,Blocked fire exit,J.Smith
+EHS-1235,2026-10-15 14:06,Test,Hazard,Contained,2026-10-15 16:36,Frayed sling,M.Jones
+EHS-1236,2026-10-15 19:45,Test,Hazard,Contained,2026-10-15 21:26,Oil spill at machine,J.Smith
+EHS-1237,2026-10-16 12:47,Machining,Near Miss,Closed,,Load swung near operator,J.Smith
+EHS-1238,2026-10-16 19:56,Machining,Hazard,Contained,2026-10-16 20:47,Oil spill at machine,J.Smith
+EHS-1239,2026-10-16 22:48,Assembly,Hazard,Open,,Oil spill at machine,A.Patel
+EHS-1240,2026-10-17 05:34,Assembly,Hazard,Contained,2026-10-17 08:02,Oil spill at machine,J.Smith
+EHS-1241,2026-10-16 22:08,Test,Hazard,Open,,Frayed sling,A.Patel
+EHS-1242,2026-10-17 08:03,Machining,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1243,2026-10-17 16:57,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1244,2026-10-18 20:48,Heat Treat,Near Miss,Closed,,Guard interlock bypass found,J.Smith
+EHS-1245,2026-10-18 19:24,Heat Treat,Hazard,Contained,2026-10-18 22:53,Missing floor marking,M.Jones
+EHS-1246,2026-10-19 06:47,Machining,Incident,Closed,,"Coolant splash to eye, rinsed",M.Jones
+EHS-1247,2026-10-19 12:38,Machining,Near Miss,Closed,,Pallet overhanging walkway,A.Patel
+EHS-1248,2026-10-19 07:11,Machining,Hazard,Contained,2026-10-19 09:38,Blocked fire exit,A.Patel
+EHS-1249,2026-10-19 09:35,Machining,Hazard,Contained,2026-10-19 10:24,Missing floor marking,M.Jones
+EHS-1250,2026-10-19 06:03,Heat Treat,Hazard,Open,,Missing floor marking,K.Lee
+EHS-1251,2026-10-19 23:42,Test,Near Miss,Closed,,Load swung near operator,M.Jones
+EHS-1252,2026-10-19 08:43,Test,Near Miss,Closed,,Trailing cable at cell 4,K.Lee
+EHS-1253,2026-10-20 23:42,Machining,Hazard,Contained,2026-10-21 04:31,Damaged pallet in aisle,J.Smith
+EHS-1254,2026-10-20 11:54,Heat Treat,Near Miss,Closed,,Pallet overhanging walkway,K.Lee
+EHS-1255,2026-10-20 08:09,Heat Treat,Hazard,Contained,2026-10-20 11:55,Blocked fire exit,J.Smith
+EHS-1256,2026-10-21 03:59,Test,Near Miss,Closed,,Pallet overhanging walkway,J.Smith
+EHS-1257,2026-10-20 11:31,Test,Hazard,Contained,2026-10-20 16:29,Blocked fire exit,M.Jones
+EHS-1258,2026-10-21 10:21,Machining,Incident,Closed,,"Coolant splash to eye, rinsed",A.Patel
+EHS-1259,2026-10-21 19:01,Machining,Near Miss,Closed,,Guard interlock bypass found,M.Jones
+EHS-1260,2026-10-21 13:51,Machining,Hazard,Open,,Oil spill at machine,A.Patel
+EHS-1261,2026-10-21 12:41,Machining,Hazard,Contained,2026-10-21 16:58,Missing floor marking,K.Lee
+EHS-1262,2026-10-21 17:51,Machining,Hazard,Contained,2026-10-21 20:34,Oil spill at machine,J.Smith
+EHS-1263,2026-10-21 06:55,Machining,Hazard,Contained,2026-10-21 08:29,Damaged pallet in aisle,A.Patel
+EHS-1264,2026-10-21 21:32,Assembly,Hazard,Contained,2026-10-22 01:21,Blocked fire exit,J.Smith
+EHS-1265,2026-10-21 13:26,Test,Hazard,Contained,2026-10-21 16:43,Missing floor marking,A.Patel
+EHS-1266,2026-10-22 19:12,Machining,Hazard,Contained,2026-10-22 20:20,Missing floor marking,M.Jones
+EHS-1267,2026-10-22 14:43,Heat Treat,Hazard,Contained,2026-10-22 17:33,Oil spill at machine,A.Patel
+EHS-1268,2026-10-22 11:55,Heat Treat,Hazard,Contained,2026-10-22 15:23,Blocked fire exit,A.Patel
+EHS-1269,2026-10-22 07:35,Test,Near Miss,Open,,Trailing cable at cell 4,K.Lee
+EHS-1270,2026-10-23 10:47,Machining,Near Miss,Open,,Load swung near operator,K.Lee
+EHS-1271,2026-10-24 02:10,Machining,Hazard,Contained,2026-10-24 07:09,Oil spill at machine,A.Patel
+EHS-1272,2026-10-23 10:35,Machining,Hazard,Contained,2026-10-23 14:39,Frayed sling,K.Lee
+EHS-1273,2026-10-23 18:39,Assembly,Near Miss,Open,,Guard interlock bypass found,K.Lee
+EHS-1274,2026-10-24 04:24,Assembly,Near Miss,Open,,Guard interlock bypass found,M.Jones
+EHS-1275,2026-10-23 13:21,Assembly,Hazard,Contained,2026-10-23 17:15,Oil spill at machine,A.Patel
+EHS-1276,2026-10-23 19:52,Assembly,Hazard,Contained,2026-10-23 23:41,Damaged pallet in aisle,A.Patel
+EHS-1277,2026-10-23 15:26,Test,Hazard,Contained,2026-10-23 18:05,Missing floor marking,M.Jones
+EHS-1278,2026-10-24 17:30,Machining,Hazard,Open,,Missing floor marking,A.Patel
+EHS-1279,2026-10-24 20:33,Test,Near Miss,Open,,Pallet overhanging walkway,K.Lee
+EHS-1280,2026-10-25 20:15,Heat Treat,Accident,Open,,Hand laceration on swarf - lost time,K.Lee
+EHS-1281,2026-10-26 04:43,Test,Hazard,Contained,2026-10-26 05:17,Oil spill at machine,J.Smith

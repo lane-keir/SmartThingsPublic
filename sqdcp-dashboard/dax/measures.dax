@@ -1,0 +1,262 @@
+// ============================================================================
+// SQDCP START-OF-SHIFT - DAX MEASURES
+// How to load: Power BI Desktop > DAX query view > paste this whole file > Run.
+// Then click "Update model: Add new measures" (CodeLens above DEFINE) to save
+// every measure into the '_Measures' table in one go.
+// Afterwards set format strings: % for [RFT ...] measures, "£#,0" for [Scrap £].
+//
+// Generic pattern: every KPI flows through [KPI Actual] / [KPI Target] /
+// [KPI Status], driven by DimKPI (Aggregation, Polarity, DailyTarget,
+// AmberTolerance). Change targets in the KPI master - not in DAX.
+// ============================================================================
+DEFINE
+
+    // ---------------------------------------------------------------- core engine
+    MEASURE '_Measures'[KPI Actual] =
+        VAR Agg = SELECTEDVALUE ( DimKPI[Aggregation] )
+        VAR Num = SUM ( FactKPI[Value] )
+        VAR Den = SUM ( FactKPI[Denominator] )
+        RETURN
+            IF (
+                MIN ( DimDate[DayOffset] ) > 0,          // nothing to report for future days
+                BLANK (),
+                SWITCH ( Agg, "Ratio", DIVIDE ( Num, Den ), "Sum", Num + 0 )
+            )
+
+    // Targets in the KPI master are per day (site level). Sum-type KPIs scale
+    // with the number of days in view; ratio KPIs do not.
+    MEASURE '_Measures'[KPI Days In View] =
+        COUNTROWS ( FILTER ( DimDate, DimDate[DayOffset] <= 0 ) )
+
+    MEASURE '_Measures'[KPI Target] =
+        VAR T = SELECTEDVALUE ( DimKPI[DailyTarget] )
+        RETURN
+            IF (
+                ISBLANK ( T ), BLANK (),
+                IF ( SELECTEDVALUE ( DimKPI[Aggregation] ) = "Sum", T * [KPI Days In View], T )
+            )
+
+    MEASURE '_Measures'[KPI Amber Tolerance] =
+        VAR Tol = COALESCE ( SELECTEDVALUE ( DimKPI[AmberTolerance] ), 0 )
+        RETURN
+            IF ( SELECTEDVALUE ( DimKPI[Aggregation] ) = "Sum", Tol * [KPI Days In View], Tol )
+
+    MEASURE '_Measures'[KPI Variance] =
+        VAR A = [KPI Actual]
+        VAR T = [KPI Target]
+        RETURN IF ( ISBLANK ( A ) || ISBLANK ( T ), BLANK (), A - T )
+
+    MEASURE '_Measures'[KPI Status] =
+        VAR A = [KPI Actual]
+        VAR T = [KPI Target]
+        VAR Tol = [KPI Amber Tolerance]
+        VAR P = SELECTEDVALUE ( DimKPI[Polarity] )
+        RETURN
+            SWITCH (
+                TRUE (),
+                MIN ( DimDate[DayOffset] ) > 0, BLANK (),
+                ISBLANK ( A ), "No Data",
+                P = "Info" || ISBLANK ( T ), "Info",
+                P = "LowerIsBetter",  IF ( A <= T, "Green", IF ( A <= T + Tol, "Amber", "Red" ) ),
+                P = "HigherIsBetter", IF ( A >= T, "Green", IF ( A >= T - Tol, "Amber", "Red" ) ),
+                "Info"
+            )
+
+    MEASURE '_Measures'[KPI Status Rank] =
+        SWITCH ( [KPI Status], "Red", 3, "Amber", 2, "Green", 1, "Info", 0, BLANK () )
+
+    // Use as Conditional formatting > Background colour > Format style: Field value
+    MEASURE '_Measures'[KPI Status Colour] =
+        SWITCH (
+            [KPI Status],
+            "Green", "#2E7D32",
+            "Amber", "#F9A825",
+            "Red", "#C62828",
+            "Info", "#1565C0",
+            "No Data", "#BDBDBD"
+        )
+
+    MEASURE '_Measures'[KPI Status Font Colour] =
+        IF ( [KPI Status] IN { "Amber", "No Data" }, "#212121", "#FFFFFF" )
+
+    MEASURE '_Measures'[KPI Status Icon] =
+        SWITCH ( [KPI Status], "Green", "✔", "Amber", "▲", "Red", "✖", "Info", "ℹ", "No Data", "–" )
+
+    // Formatted value for matrices / calendars that mix %, £, counts and hours
+    MEASURE '_Measures'[KPI Display] =
+        VAR A = [KPI Actual]
+        VAR U = SELECTEDVALUE ( DimKPI[Unit] )
+        RETURN
+            SWITCH (
+                TRUE (),
+                MIN ( DimDate[DayOffset] ) > 0, BLANK (),
+                ISBLANK ( A ), "–",
+                U = "%", FORMAT ( A, "0%" ),
+                U = "GBP", FORMAT ( A, "£#,0" ),
+                U = "Hours", FORMAT ( A, "#,0.0" ),
+                FORMAT ( A, "#,0" )
+            )
+
+    MEASURE '_Measures'[KPI Target Display] =
+        VAR T = [KPI Target]
+        VAR U = SELECTEDVALUE ( DimKPI[Unit] )
+        VAR P = SELECTEDVALUE ( DimKPI[Polarity] )
+        VAR Op = IF ( P = "HigherIsBetter", "≥ ", "≤ " )
+        RETURN
+            IF (
+                ISBLANK ( T ), "track",
+                Op & SWITCH ( U, "%", FORMAT ( T, "0%" ), "GBP", FORMAT ( T, "£#,0" ), "Hours", FORMAT ( T, "#,0.0" ), FORMAT ( T, "#,0" ) )
+            )
+
+    // ---------------------------------------------------------------- time windows
+    // Each ignores the page's date filter and looks back from the latest date in view.
+    MEASURE '_Measures'[KPI Actual MTD] =
+        CALCULATE ( [KPI Actual], REMOVEFILTERS ( DimDate ), DATESMTD ( DimDate[Date] ) )
+
+    MEASURE '_Measures'[KPI Status MTD] =
+        CALCULATE ( [KPI Status], REMOVEFILTERS ( DimDate ), DATESMTD ( DimDate[Date] ) )
+
+    MEASURE '_Measures'[KPI Actual Last 7 Days] =
+        VAR EndDate = MAX ( DimDate[Date] )
+        RETURN
+            CALCULATE ( [KPI Actual], REMOVEFILTERS ( DimDate ), DATESINPERIOD ( DimDate[Date], EndDate, -7, DAY ) )
+
+    MEASURE '_Measures'[KPI Actual Prior 7 Days] =
+        VAR EndDate = MAX ( DimDate[Date] ) - 7
+        RETURN
+            CALCULATE ( [KPI Actual], REMOVEFILTERS ( DimDate ), DATESINPERIOD ( DimDate[Date], EndDate, -7, DAY ) )
+
+    // Arrow shows direction of travel, coloured by whether that direction is good
+    MEASURE '_Measures'[KPI Trend Arrow] =
+        VAR Cur = [KPI Actual Last 7 Days]
+        VAR Prv = [KPI Actual Prior 7 Days]
+        RETURN
+            IF ( ISBLANK ( Cur ) || ISBLANK ( Prv ), BLANK (), IF ( Cur > Prv, "↑", IF ( Cur < Prv, "↓", "→" ) ) )
+
+    MEASURE '_Measures'[KPI Trend Colour] =
+        VAR Cur = [KPI Actual Last 7 Days]
+        VAR Prv = [KPI Actual Prior 7 Days]
+        VAR P = SELECTEDVALUE ( DimKPI[Polarity] )
+        RETURN
+            SWITCH (
+                TRUE (),
+                ISBLANK ( Cur ) || ISBLANK ( Prv ) || Cur = Prv || P = "Info", "#616161",
+                ( Cur < Prv ) = ( P = "LowerIsBetter" ), "#2E7D32",
+                "#C62828"
+            )
+
+    // ---------------------------------------------------------------- pillar roll-up (worst KPI wins)
+    MEASURE '_Measures'[Pillar Status Rank] =
+        IF (
+            MIN ( DimDate[DayOffset] ) > 0, BLANK (),
+            MAXX ( VALUES ( DimKPI[KPI_Code] ), [KPI Status Rank] )
+        )
+
+    MEASURE '_Measures'[Pillar Status] =
+        SWITCH ( [Pillar Status Rank], 3, "Red", 2, "Amber", 1, "Green", 0, "Info" )
+
+    MEASURE '_Measures'[Pillar Status Colour] =
+        SWITCH ( [Pillar Status Rank], 3, "#C62828", 2, "#F9A825", 1, "#2E7D32", 0, "#1565C0" )
+
+    // Classic safety cross / letter-calendar cell colours for each pillar
+    MEASURE '_Measures'[Safety Day Colour]   = CALCULATE ( [Pillar Status Colour], DimKPI[Pillar] = "Safety" )
+    MEASURE '_Measures'[Quality Day Colour]  = CALCULATE ( [Pillar Status Colour], DimKPI[Pillar] = "Quality" )
+    MEASURE '_Measures'[Delivery Day Colour] = CALCULATE ( [Pillar Status Colour], DimKPI[Pillar] = "Delivery" )
+    MEASURE '_Measures'[Cost Day Colour]     = CALCULATE ( [Pillar Status Colour], DimKPI[Pillar] = "Cost" )
+    MEASURE '_Measures'[People Day Colour]   = CALCULATE ( [Pillar Status Colour], DimKPI[Pillar] = "People" )
+
+    // ---------------------------------------------------------------- SAFETY
+    MEASURE '_Measures'[Accidents]         = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "S01" )
+    MEASURE '_Measures'[Incidents]         = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "S02" )
+    MEASURE '_Measures'[Near Misses]       = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "S03" )
+    MEASURE '_Measures'[Hazards Contained] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "S04" )
+
+    MEASURE '_Measures'[Today] =
+        CALCULATE ( MAX ( DimDate[Date] ), REMOVEFILTERS ( DimDate ), DimDate[DayOffset] = 0 )
+
+    MEASURE '_Measures'[Days Since Last Accident] =
+        VAR LastAccident =
+            CALCULATE ( MAX ( FactKPI[ProductionDate] ), REMOVEFILTERS ( DimDate ), DimKPI[KPI_Code] = "S01" )
+        VAR FirstData = CALCULATE ( MIN ( FactKPI[ProductionDate] ), REMOVEFILTERS ( DimDate ) )
+        RETURN INT ( [Today] - COALESCE ( LastAccident, FirstData ) )
+
+    MEASURE '_Measures'[Days Since Last Incident] =
+        VAR LastIncident =
+            CALCULATE ( MAX ( FactKPI[ProductionDate] ), REMOVEFILTERS ( DimDate ), DimKPI[KPI_Code] IN { "S01", "S02" } )
+        VAR FirstData = CALCULATE ( MIN ( FactKPI[ProductionDate] ), REMOVEFILTERS ( DimDate ) )
+        RETURN INT ( [Today] - COALESCE ( LastIncident, FirstData ) )
+
+    // ---------------------------------------------------------------- QUALITY
+    MEASURE '_Measures'[Product Safety Reports] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "Q01" )
+    MEASURE '_Measures'[Escapes]                = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "Q02" )
+    MEASURE '_Measures'[Concessions]            = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "Q03" )
+    MEASURE '_Measures'[NCRs]                   = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "Q04" )
+
+    // ---------------------------------------------------------------- DELIVERY
+    MEASURE '_Measures'[RFT Final]  = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "D01" )
+    MEASURE '_Measures'[RFT Verify] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "D02" )
+    MEASURE '_Measures'[RFT System] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "D03" )
+
+    // Rolled throughput yield across the three gates
+    MEASURE '_Measures'[RFT Rolled Throughput] = [RFT Verify] * [RFT System] * [RFT Final]
+
+    MEASURE '_Measures'[Units Presented Final] =
+        CALCULATE ( SUM ( FactKPI[Denominator] ), DimKPI[KPI_Code] = "D01" )
+
+    MEASURE '_Measures'[Thermal Deviations] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "D04" )
+
+    MEASURE '_Measures'[Stop Call Wait Mins] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "D05" )
+    MEASURE '_Measures'[Stop Calls] =
+        CALCULATE ( SUM ( FactKPI[Denominator] ), DimKPI[KPI_Code] = "D05" ) + 0
+    MEASURE '_Measures'[Avg Stop Call Wait Mins] = DIVIDE ( [Stop Call Wait Mins], [Stop Calls] )
+    MEASURE '_Measures'[Longest Stop Call Wait Mins] =
+        CALCULATE ( MAX ( FactKPI[Value] ), DimKPI[KPI_Code] = "D05" )
+
+    // ---------------------------------------------------------------- COST
+    MEASURE '_Measures'[Scrap £]     = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "C01" )
+    MEASURE '_Measures'[Rework Hrs]  = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "C02" )
+
+    // ---------------------------------------------------------------- PEOPLE
+    MEASURE '_Measures'[Customer Visits] = CALCULATE ( [KPI Actual], DimKPI[KPI_Code] = "P01" )
+
+    // Forward-looking: what is coming to site, so the area can be prepared
+    MEASURE '_Measures'[Customer Visits Next 7 Days] =
+        CALCULATE (
+            SUM ( FactKPI[Value] ) + 0,
+            DimKPI[KPI_Code] = "P01",
+            REMOVEFILTERS ( DimDate ),
+            DimDate[DayOffset] >= 0 && DimDate[DayOffset] <= 7
+        )
+
+    // ---------------------------------------------------------------- actions & headers
+    MEASURE '_Measures'[Open Actions] =
+        CALCULATE ( COUNTROWS ( FactActions ), FactActions[Status] <> "Closed" ) + 0
+
+    MEASURE '_Measures'[Overdue Actions] =
+        CALCULATE ( COUNTROWS ( FactActions ), FactActions[IsOverdue] = TRUE () ) + 0
+
+    MEASURE '_Measures'[Report Period Label] =
+        VAR D1 = MIN ( DimDate[Date] )
+        VAR D2 = MAX ( DimDate[Date] )
+        RETURN
+            "Reviewing: "
+                & IF ( D1 = D2, FORMAT ( D1, "dddd d mmm yyyy" ), FORMAT ( D1, "ddd d mmm" ) & " – " & FORMAT ( D2, "ddd d mmm yyyy" ) )
+
+    MEASURE '_Measures'[Data Freshness Label] =
+        "Latest source record: " & FORMAT ( CALCULATE ( MAX ( FactKPI[EventDateTime] ), REMOVEFILTERS () ), "ddd d mmm hh:nn" )
+
+// ---------------------------------------------------------------- test query
+// Shows yesterday's (or Fri+weekend on Monday) scorecard. Must return one row per KPI.
+EVALUATE
+SUMMARIZECOLUMNS (
+    DimKPI[KPISort],
+    DimKPI[Pillar],
+    DimKPI[KPI_Name],
+    TREATAS ( { TRUE () }, DimDate[IsReportDay] ),
+    "Actual", [KPI Display],
+    "Target", [KPI Target Display],
+    "Status", [KPI Status],
+    "MTD", [KPI Actual MTD],
+    "Trend", [KPI Trend Arrow]
+)
+ORDER BY DimKPI[KPISort]
